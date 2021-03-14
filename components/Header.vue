@@ -35,7 +35,9 @@ export default Vue.extend({
   }
   .page__header_home {
     position: relative;
-    background: url('https://www.o-greens.com/wp-content/uploads/2020/11/Diwali-bcg.jpg') no-repeat 50%;
+    /* background: url('https://www.o-greens.com/wp-content/uploads/2020/11/Diwali-bcg.jpg') no-repeat 50%; */
+    background: url('~/assets/images/layout/splash-0.jpg') no-repeat 50%;
+    /*background: url('~/assets/images/layout/splash-1.jpg') no-repeat 50%;*/
     background-size: cover;
   }
   .page__header_home::before {

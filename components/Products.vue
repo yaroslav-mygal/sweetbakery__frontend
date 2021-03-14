@@ -9,7 +9,8 @@
         <div class="product-flex">
           <div class="product-box">
             <picture>
-              <img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt="">
+              
+              <img class="res-img" src="~/assets/images/product-tort.jpg" alt="Торти">
             </picture>
             <div class="product-box__description">
               <div class="product-box__summary">
@@ -35,14 +36,14 @@
         
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <picture><img class="res-img" src="~/assets/images/product-cake-2.jpg" alt="Капкейки"></picture>
             <div class="product-box__description">
               <h3>Капкейки</h3>
               <div class="product-box__summary">
                 <span class="product-box__price"><em>від</em> 50грн</span>
               </div>
               <div class="product-box__content">
-                <p>Це порційний торт у стаканчику, у якому прекрасно поєднуються різні варіанти тіста, велика кількість начинки і висока ніжна “шапочка”.</p>
+                <p>Це - порційний торт у стаканчику, у якому прекрасно поєднуються різні варіанти тіста, велика кількість начинки і висока ніжна “шапочка”.</p>
               </div>
               <div class="product-box__action">
                 <a href="#" class="btn btn_order">Замовити</a>
@@ -76,7 +77,8 @@
         </div>
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            
+            <picture><img class="res-img" src="~/assets/images/product-marengo.jpg" alt="Меренга"></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -140,5 +142,21 @@
 <style>
   .section_products {
     background: var(--bg-product-section);
+    position: relative;
+    transform: skewY(-2deg);
+    z-index: 2;
+  }
+  .section_products .container {
+    transform: skewY(2deg);
+  }
+  .section_products::before {
+    /* content: '';
+    position: absolute;
+    background: var(--bg-product-section);
+    height: 40px;
+    left: 0;
+    right: 0;
+    top: -40px;
+    clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%); */
   }
 </style>
