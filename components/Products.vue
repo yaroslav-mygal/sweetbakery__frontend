@@ -1,19 +1,144 @@
 <template>
-  <section class="section section_testimonials">
+  <section class="section section_products">
     <div class="container">
-      <header class="section__header">
-        <h2>Моя продукция</h2>
+      <header class="section-header">
+        <h2 class="section-header__title">Асортимент</h2>
+        <p>Продукція з натуральних інградієгтів</p>
       </header>
-      <div class="testimonials-slider">
-        <div>
-          <blockquote>
-            <p>“Love the naturalness. Energy bars are my favorite.”</p>
-          </blockquote>
+      <div class="products-wrap">
+        <div class="product-flex">
+          <div class="product-box">
+            <picture>
+              <img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt="">
+            </picture>
+            <div class="product-box__description">
+              <div class="product-box__summary">
+                <div class="product-box__title-info">
+                  <h3>Торти</h3>
+                  <span class="product-box__price"><em>від</em> 380грн</span>
+                </div>
+              </div>
+              <ul class="products_type">
+                <li><a href="#" class="btn btn_type">Бісквітні</a></li>
+                <li><a href="#" class="btn btn_type">Мусові</a></li>
+                <li><a href="#" class="btn btn_type">Класика</a></li>
+              </ul>
+              <div class="product-box__content">
+                <p>Наші смачнющі тортики приємно здивують поціновувачів солодкого. У нас ви знайдете торти різного смаку: від класики до сучасних тенденцій у світі десертів.</p>
+              </div>
+              <div class="product-box__action">
+                <a href="#" class="btn btn_order">Замовити</a>
+              </div>
+            </div>
+          </div>
         </div>
+        
+        <div class="product-flex">
+          <div class="product-box">
+            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <div class="product-box__description">
+              <h3>Капкейки</h3>
+              <div class="product-box__summary">
+                <span class="product-box__price"><em>від</em> 50грн</span>
+              </div>
+              <div class="product-box__content">
+                <p>Це порційний торт у стаканчику, у якому прекрасно поєднуються різні варіанти тіста, велика кількість начинки і висока ніжна “шапочка”.</p>
+              </div>
+              <div class="product-box__action">
+                <a href="#" class="btn btn_order">Замовити</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-flex">
+          <div class="product-box">
+            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <div class="product-box__description">
+              <div class="product-box__summary">
+                <div class="product-box__title-info">
+                  <h3>Тістечка</h3>
+                  <span class="product-box__price"><em>від</em> 40грн</span>
+                </div>
+              </div>
+              <ul class="products_type">
+                <li><a href="#" class="btn btn_type">Ескімо</a></li>
+                <li><a href="#" class="btn btn_type">Мусові</a></li>
+                <li><a href="#" class="btn btn_type">Відкриті</a></li>
+              </ul>
+              <div class="product-box__content">
+                <p>Порційні десерти (бісквітні чи мусові) принесуть незабутню насолоду та стануть прекрасним доповненням до вашого чаювання чи до будь-якого подарунку.</p>
+              </div>
+              <div class="product-box__action">
+                <a href="#" class="btn btn_order">Замовити</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-flex">
+          <div class="product-box">
+            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <div class="product-box__description">
+              <div class="product-box__summary">
+                <div class="product-box__title-info">
+                  <h3>Меренга</h3>
+                  <span class="product-box__price"><em>від</em> 500грн</span>
+                </div>
+              </div>
+              <div class="product-box__content">
+                <p>Повітряний порційний десерт на палочці задовольнить будь-якого маленького вередуна чи стане прекрасним прикрашанням вашого торту.</p>
+              </div>
+              <div class="product-box__action">
+                <a href="#" class="btn btn_order">Замовити</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-flex">
+          <div class="product-box">
+            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <div class="product-box__description">
+              <div class="product-box__summary">
+                <div class="product-box__title-info">
+                  <h3>Кейк-попси</h3>
+                  <span class="product-box__price"><em>від</em> 500грн</span>
+                </div>
+              </div>
+              <div class="product-box__content">
+                <p>Очень насыщеный шоколадный десерт. Классическая основа на крем сыре Очень насыщеный шоколадный десерт. Классическая основа на крем сыре Очень насыщеный шоколадный десерт. Классическая основа на крем сыре</p>
+              </div>
+              <div class="product-box__action">
+                <a href="#" class="btn btn_order">Замовити</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-flex">
+          <div class="product-box">
+            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <div class="product-box__description">
+              <div class="product-box__summary">
+                <div class="product-box__title-info">
+                  <h3>ПП-продукція</h3>
+                  <span class="product-box__price"><em>від</em> 500грн</span>
+                </div>
+              </div>
+              <div class="product-box__content">
+                <p>Очень насыщеный шоколадный десерт. Классическая основа на крем сыре Очень насыщеный шоколадный десерт. Классическая основа на крем сыре Очень насыщеный шоколадный десерт. Классическая основа на крем сыре</p>
+              </div>
+              <div class="product-box__action">
+                <a href="#" class="btn btn_order">Замовити</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   </section>
 </template>
 <style>
-  
+  .section_products {
+    background: var(--bg-product-section);
+  }
 </style>

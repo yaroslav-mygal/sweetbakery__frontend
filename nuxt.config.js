@@ -14,9 +14,13 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
+  server: {
+    host: '0' // default: localhost
+  },
+  
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -43,7 +47,11 @@ export default {
   },
   googleFonts: {
     families: {
-      Lato: [300, 400, 700]
+      Lato: {
+        wght: [300, 400, 700],
+        ital: [400]
+      },
+      'Lobster': [400]
     }
   },
   fontawesome: {
