@@ -1,4 +1,4 @@
-# sweetbackery
+# sweetbakery
 
 ## Build Setup
 
