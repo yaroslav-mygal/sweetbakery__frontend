@@ -28,10 +28,5 @@ jobs:
       - run: yarn generate
       # Deploy to Netlify using our dev secrets
       - name: Deploy to netlify
-        uses: netlify/actions/cli@master
-        with:
-          args: deploy --dir=site --functions=functions
-        env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      - run: npx netlify deploy --site ${{ secrets.NETLIFY_SITE_ID }} --auth ${{ secrets.NETLIFY_AUTH_TOKEN }}
       
