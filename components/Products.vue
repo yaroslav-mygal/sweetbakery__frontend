@@ -16,7 +16,7 @@
               <div class="product-box__summary">
                 <div class="product-box__title-info">
                   <h3>Торти</h3>
-                  <span class="product-box__price"><em>від</em> 380грн</span>
+                  <span class="product-box__price"><em>від</em> 350 грн</span>
                 </div>
               </div>
               <ul class="products_type">
@@ -40,10 +40,10 @@
             <div class="product-box__description">
               <h3>Капкейки</h3>
               <div class="product-box__summary">
-                <span class="product-box__price"><em>від</em> 50грн</span>
+                <span class="product-box__price"><em>від</em> 50 грн</span>
               </div>
               <div class="product-box__content">
-                <p>Це - порційний торт у стаканчику, у якому прекрасно поєднуються різні варіанти тіста, велика кількість начинки і висока ніжна “шапочка”.</p>
+                <p>Це - порційний торт у паперовому стаканчику, в якому прекрасно поєднуються різні варіанти тіста, велика кількість начинки і висока ніжна “шапочка”.</p>
               </div>
               <div class="product-box__action">
                 <a href="#" class="btn btn_order">Замовити</a>
@@ -58,7 +58,7 @@
               <div class="product-box__summary">
                 <div class="product-box__title-info">
                   <h3>Тістечка</h3>
-                  <span class="product-box__price"><em>від</em> 40грн</span>
+                  <span class="product-box__price"><em>від</em> 40 грн</span>
                 </div>
               </div>
               <ul class="products_type">
@@ -83,7 +83,7 @@
               <div class="product-box__summary">
                 <div class="product-box__title-info">
                   <h3>Меренга</h3>
-                  <span class="product-box__price"><em>від</em> 500грн</span>
+                  <span class="product-box__price"><em>від</em> 15 грн</span>
                 </div>
               </div>
               <div class="product-box__content">
@@ -102,11 +102,12 @@
               <div class="product-box__summary">
                 <div class="product-box__title-info">
                   <h3>Кейк-попси</h3>
-                  <span class="product-box__price"><em>від</em> 500грн</span>
+                  <span class="product-box__price"><em>від</em> 40 грн</span>
                 </div>
               </div>
               <div class="product-box__content">
-                <p>Очень насыщеный шоколадный десерт. Классическая основа на крем сыре Очень насыщеный шоколадный десерт. Классическая основа на крем сыре Очень насыщеный шоколадный десерт. Классическая основа на крем сыре</p>
+                <p>Ніжний десерт із бісквітних крихт та крем-чіз, покритий хрустким шоколадом, що зовні нагадує улюблений всіма дітьми чупа-чупс, назавжди заполонить їхні серця.
+</p>
               </div>
               <div class="product-box__action">
                 <a href="#" class="btn btn_order">Замовити</a>
@@ -122,11 +123,12 @@
               <div class="product-box__summary">
                 <div class="product-box__title-info">
                   <h3>ПП-продукція</h3>
-                  <span class="product-box__price"><em>від</em> 500грн</span>
+                  <span class="product-box__price"><em>від</em> 130 грн</span>
                 </div>
               </div>
               <div class="product-box__content">
-                <p>Очень насыщеный шоколадный десерт. Классическая основа на крем сыре Очень насыщеный шоколадный десерт. Классическая основа на крем сыре Очень насыщеный шоколадный десерт. Классическая основа на крем сыре</p>
+                <p>Для прихильників правильного харчування пропонуємо смачнющі десерти без білого цукру та пшеничного борошна. ПП-шоколад готуємо виключно самостійно з какао-бобів та какао-масла вищого ґатунку.
+</p>
               </div>
               <div class="product-box__action">
                 <a href="#" class="btn btn_order">Замовити</a>
