@@ -152,6 +152,7 @@
     transform: skewY(2deg);
   }
   .section_products::before {
+    
     /* content: '';
     position: absolute;
     background: var(--bg-product-section);
