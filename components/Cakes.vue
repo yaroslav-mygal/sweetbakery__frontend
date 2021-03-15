@@ -15,7 +15,7 @@
               <div class="product-box__summary">
                 <div class="product-box__title-info">
                   <h3>Крем-чіз</h3>
-                  <span class="product-box__price">450грн</span>
+                  <span class="product-box__price">450 грн</span>
                 </div>
                 <a href="#" class="btn btn_order">Замовити</a>
               </div>
@@ -34,11 +34,11 @@
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Солона карамель</h3>
-                    <span class="product-box__price">400грн</span>
+                    <span class="product-box__price">400 грн</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>      
                 </div>
-                <p> походження.</p>
+                <p>Ця начинка підійде для поціновувачів солодких тортів з легким солоним післясмаком. Гармоніює з горіхами та буде прекрасним доповненням до ванільних та шоколадних бісквітів. Входить до складу торту “Снікерс”.</p>
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
               </div>
-              <p>Легкий кокосовий бісквіт, просочений сиропом “Три молока”, крем-чіз на ганаші з білого шоколаду, підсмажені хрусткі мигдальні пелюстки. Замовлення від 1,6 кг</p>
+              <p>Легкий кокосовий бісквіт, просочений сиропом “Три молока”, крем-чіз на ганаші з білого шоколаду, підсмажені хрусткі мигдальні пелюстки. Замовлення від 1,6 кг.</p>
             </div>
          </div>
       </div>
@@ -179,7 +179,7 @@
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Бананово-карамельний</h3>
-                    <span class="product-box__price">450грн</span>
+                    <span class="product-box__price">700 грн</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -198,6 +198,7 @@
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
+                <p>Шоколадний бісквіт, прошарок  із ганашу на молочному шоколаді з цілим фундуком, шматочками бісквіту та лікером “Бейліз” - все це в оточенні вершкового фундукового мусу на білому шоколаді. Торт покритий шоколадною дзеркальною глазур’ю. Вага - 1,4 кг, діаметр - 20 см, висота - 6-7 см. Вартість - 700 грн.</p>
               </div>
             </div>
           </div>
@@ -207,12 +208,13 @@
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
-                    <h3>сливочно-ягодный</h3>
-                    <span class="product-box__price">450грн</span>
+                    <h3>Вершково-ягідний</h3>
+                    <span class="product-box__price">400 грн</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
               </div>
+               <p>Тонкий ванільний бісквіт в основі, вершково-ягідний мус та зверху - прошарок ягідного желе. 1 кг - 400 грн.</p>
             </div>
           </div>
       </div>
