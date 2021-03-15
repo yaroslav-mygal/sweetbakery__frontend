@@ -20,7 +20,17 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      
-      
+      # Install packages
+      - name: Install node packages
+      - run: npm install
+      - run: npm run build --if-present
+      # Deploy to Netlify using our dev secrets
+      - name: Deploy to netlify
+        uses: netlify/actions/cli@master
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        with:
+          args: deploy --dir=build --prod
         
       
