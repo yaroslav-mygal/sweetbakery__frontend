@@ -14,7 +14,7 @@
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
-                  <h3>Крем-чіз </h3>
+                  <h3>Крем-чіз</h3>
                   <span class="product-box__price">450 грн</span>
                 </div>
                 <a href="#" class="btn btn_order">Замовити</a>
