@@ -1,10 +1,10 @@
 # Name of workflow
-name: Development workflow
+name: Development
 
 on:
   push:
     branches:
-      - dev
+      - master
 
 jobs:
   build:
