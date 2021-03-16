@@ -1,0 +1,42 @@
+# Name of workflow
+name: Development
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      # Cache files
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      
+      - uses: c-hive/gha-yarn-cache@v1
+      
+      # Install NodeJS v 12
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+          
+      # Install Node Packages
+      - name: Install Packages
+        run: yarn install
+
+      #Generate static site
+      - name: Generate Site
+        run: yarn generate
+      
+      # Deploy to Netlify using our dev secrets
+      - name: Deploy to netlify
+        run: netlify deploy --site ${{ secrets.NETLIFY_SITE_ID }} --auth ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      
