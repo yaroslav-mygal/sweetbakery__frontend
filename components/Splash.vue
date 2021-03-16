@@ -2,7 +2,6 @@
   <div class="splash">
     <div class="container">
       <div class="splash-content">
-        <p>hotfix</p>
         <h1>Кондитерська з сімейними цінностями 1</h1>
         <p> We’re aiming to impact millions of lives, inspire people to make the right food choices, and create a shift for the entire planet to turn vegan.</p>
         <a href="order" class="btn btn_primary">Зробити замовлення &gt;</a>
