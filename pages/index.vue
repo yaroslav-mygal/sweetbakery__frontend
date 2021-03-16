@@ -6,6 +6,7 @@
     <Cakes/>
     <Testimonials/>
     <Portfolio/>
+    
   </div>
 </template>
 
