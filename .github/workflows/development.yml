@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 12.x
       - run: npm install
-      - run: npm run build --if-present
+      - run: yarn generate
       
       # Deploy to Netlify using our dev secrets
       - name: Deploy to netlify
