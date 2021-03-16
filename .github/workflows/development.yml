@@ -33,7 +33,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-        if: steps.yarn-cache.outputs.cache-hit != 'true' # Over here!
         run: yarn install
 
       #Generate static site
