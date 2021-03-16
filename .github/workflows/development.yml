@@ -32,11 +32,5 @@ jobs:
       
       # Deploy to Netlify using our dev secrets
       - name: Deploy to netlify
-        uses: netlify/actions/cli@master
-        env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        with:
-          args: deploy --dir=dist --prod
-        
+      - run: netlify deploy --site NETLIFY_SITE_ID --auth NETLIFY_AUTH_TOKEN --prod
       
