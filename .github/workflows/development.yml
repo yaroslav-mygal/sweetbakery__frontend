@@ -36,7 +36,6 @@ jobs:
           
       # Install Node Packages
       - name: Install Packages
-        if: steps.yarn-cache.outputs.cache-hit != 'true' # Over here!
         run: yarn install
 
       #Generate static site
