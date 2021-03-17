@@ -3,7 +3,7 @@
     <div class="container">
       <header class="section-header">
         <h2 class="section-header__title">Асортимент</h2>
-        <p>Продукція з натуральних інградієгтів</p>
+        <p>Продукція з натуральних інгредієнтів</p>
       </header>
       <div class="products-wrap">
         <div class="product-flex">
