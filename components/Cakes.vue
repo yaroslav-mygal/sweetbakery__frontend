@@ -2,6 +2,64 @@
   <div class="general-cakes">
     <div class="section section_cake">
       <div class="container">
+      
+      <header class="section-header">
+        <h2 class="section-header__title">Топ наших замовлень</h2>
+      </header>
+      <div class="products-wrap">
+        <div class="product-flex">
+          <div class="product-box">
+            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <div class="product-box__description">
+              <div class="product-box__summary">
+                <div class="product-box__title-info">
+                  <h3>Снікерс</h3>
+                  <span class="product-box__price">450 грн</span>
+                </div>
+                <a href="#" class="btn btn_order">Замовити</a>
+              </div>
+              <div class="product-box__content">
+                <p>Найніжніший і найсмачніший крем, який полюбляють усі без винятку. Прекрасно поєднується з фруктами, ягодами та ягідними прослойками. 
+                  Гармоніює з бісквітами: ванільним, шоколадним та "червоний оксамит".
+Склад: крем-сир, вершки тваринного походження, цукрова пудра.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+<div class="product-flex">
+            <div class="product-box">
+              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <div class="product-box__description">
+                <div class="product-box__summary">
+                  <div class="product-box__title-info">
+                    <h3>Орео</h3>
+                    <span class="product-box__price">450грн</span>
+                  </div>
+                  <a href="#" class="btn btn_order">Замовити</a>
+                </div>
+                <p>Шоколадний бісквіт, просочений ромовим сиропом, крем - ганаш на якісному білому шоколаді, чізкейк “Орео”; зовні торт обтягнутий ганашем на чорному шоколаді.</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-flex">
+            <div class="product-box">
+              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <div class="product-box__description">
+                <div class="product-box__summary">
+                  <div class="product-box__title-info">
+                    <h3>Кокосово-мигдальный</h3>
+                    <span class="product-box__price">450грн</span>
+                  </div>
+                  <a href="#" class="btn btn_order">Замовити</a>
+                </div>
+              </div>
+              <p>Легкий кокосовий бісквіт, просочений сиропом “Три молока”, крем-чіз на ганаші з білого шоколаду, підсмажені хрусткі мигдальні пелюстки. Замовлення від 1,6 кг.</p>
+            </div>
+         </div>
+
+      </div>
+
+
       <header class="section-header">
         <h2 class="section-header__title">Бісквітні торти</h2>
         <p>Продукція тільки з натуральних інградієгтів</p>
@@ -119,36 +177,9 @@
               </div>
             </div>
           </div>
-          <div class="product-flex">
-            <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
-              <div class="product-box__description">
-                <div class="product-box__summary">
-                  <div class="product-box__title-info">
-                    <h3>Орео</h3>
-                    <span class="product-box__price">450грн</span>
-                  </div>
-                  <a href="#" class="btn btn_order">Замовити</a>
-                </div>
-                <p>Шоколадний бісквіт, просочений ромовим сиропом, крем - ганаш на якісному білому шоколаді, чізкейк “Орео”; зовні торт обтягнутий ганашем на чорному шоколаді.</p>
-              </div>
-            </div>
-          </div>
-          <div class="product-flex">
-            <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
-              <div class="product-box__description">
-                <div class="product-box__summary">
-                  <div class="product-box__title-info">
-                    <h3>Кокосово-мигдальный</h3>
-                    <span class="product-box__price">450грн</span>
-                  </div>
-                  <a href="#" class="btn btn_order">Замовити</a>
-                </div>
-              </div>
-              <p>Легкий кокосовий бісквіт, просочений сиропом “Три молока”, крем-чіз на ганаші з білого шоколаду, підсмажені хрусткі мигдальні пелюстки. Замовлення від 1,6 кг.</p>
-            </div>
-         </div>
+
+          
+          
       </div>
     </div>
     </div>
