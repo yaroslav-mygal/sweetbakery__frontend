@@ -53,7 +53,7 @@
         </div>
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <picture><img class="res-img" src="~/assets/images/mini-cake.jpg" alt=""></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -97,7 +97,7 @@
         </div>
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <picture><img class="res-img" src="~/assets/images/cake-pops.jpg" alt=""></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -118,7 +118,7 @@
 
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <picture><img class="res-img" src="~/assets/images/PP/PP-tart.jpg" alt=""></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
