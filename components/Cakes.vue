@@ -9,29 +9,29 @@
       <div class="products-wrap">
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <picture><img class="res-img" src="~/assets/images/top/snickers2.jpg" alt=""></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
                   <h3>Снікерс</h3>
-                  <span class="product-box__price">450 грн</span>
+                  <span class="product-box__price">450 грн/кг</span>
                 </div>
                 <a href="#" class="btn btn_order">Замовити</a>
               </div>
               <div class="product-box__content">
-                <p>Шоколадний вологий шифоновий бісквіт з крем-чіз та прослойкою з солоної карамелі зі смаженим арахісом, а також, ганашем на молочному шоколаді.</p>
+                <p>Шоколадний/ванільний вологий шифоновий бісквіт з крем-чіз та прослойкою з солоної карамелі зі смаженим арахісом, а також, ганашем на молочному шоколаді.</p>
               </div>
             </div>
           </div>
         </div>
 <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/top/oreo.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Орео</h3>
-                    <span class="product-box__price">450грн</span>
+                    <span class="product-box__price">450 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -41,12 +41,12 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/top/cocos_mygdal.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
-                    <h3>Кокосово-мигдальный</h3>
-                    <span class="product-box__price">450грн</span>
+                    <h3>Кокосово-мигдальний</h3>
+                    <span class="product-box__price">450 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -85,7 +85,7 @@
         </div>
         <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/top/cocos_mygdal.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -281,7 +281,7 @@
         <div class="products-wrap">
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/tork-kyiv.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/classic/tort-kyiv.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -296,7 +296,7 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/classic/napoleon.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -311,7 +311,7 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/classic/medianyk.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -327,7 +327,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/classic/sher-ami.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -343,7 +343,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/classic/esterkhazi.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -359,7 +359,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/classic/pincher.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -375,7 +375,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/classic/pincher.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
