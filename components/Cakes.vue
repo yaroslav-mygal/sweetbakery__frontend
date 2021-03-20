@@ -66,12 +66,12 @@
 
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+            <picture><img class="res-img" src="~/assets/images/biscuit/krem-chiz.jpg" alt=""></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
                   <h3>Крем-чіз</h3>
-                  <span class="product-box__price">450 грн</span>
+                  <span class="product-box__price">450 грн/кг</span>
                 </div>
                 <a href="#" class="btn btn_order">Замовити</a>
               </div>
@@ -85,12 +85,12 @@
         </div>
         <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/top/cocos_mygdal.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/biscuit/caramel.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Солона карамель</h3>
-                    <span class="product-box__price">400 грн</span>
+                    <span class="product-box__price">400 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>      
                 </div>
@@ -100,12 +100,12 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/biscuit/shoko-ganash.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Шоколадный ганаш</h3>
-                    <span class="product-box__price">400 грн</span>
+                    <span class="product-box__price">400 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -115,12 +115,12 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/biscuit/fistashkovyi.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Фісташковий/арахісовий крем</h3>
-                    <span class="product-box__price">450 грн</span>
+                    <span class="product-box__price">450 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -130,12 +130,12 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/biscuit/yogurt3.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Йогуртовий крем</h3>
-                    <span class="product-box__price">400 грн</span>
+                    <span class="product-box__price">400 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -147,12 +147,12 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/biscuit/maslianyi-krem.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Масляний крем</h3>
-                    <span class="product-box__price">400 грн</span>
+                    <span class="product-box__price">400 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -162,12 +162,12 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/biscuit/zgushchene-moloko.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Крем зі згущеного молока</h3>
-                    <span class="product-box__price">400 грн</span>
+                    <span class="product-box__price">400 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -189,12 +189,12 @@
       <div class="products-wrap">
         <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/muss/three-chokolad.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Три шоколаду</h3>
-                    <span class="product-box__price">600 грн</span>
+                    <span class="product-box__price">600 грн/торт</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -205,12 +205,12 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/muss/diabella.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Диабелла</h3>
-                    <span class="product-box__price">700 грн</span>
+                    <span class="product-box__price">700 грн/торт</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -222,12 +222,12 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/muss/banan-karamel.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Бананово-карамельний</h3>
-                    <span class="product-box__price">700 грн</span>
+                    <span class="product-box__price">700 грн/торт</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -238,28 +238,28 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/muss/sniсkers-muss.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Снікерс мусовий</h3>
-                    <span class="product-box__price">700 грн</span>
+                    <span class="product-box__price">?700 грн/</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
-                <p>Шоколадний бісквіт, птість - 700 грн.</p>
+                <p>??Шоколадний бісквіт, птість - 700 грн.</p>
               </div>
             </div>
           </div>
           
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/muss/vershkovo-yagidnyi.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Вершково-ягідний</h3>
-                    <span class="product-box__price">400 грн</span>
+                    <span class="product-box__price">400 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -286,7 +286,7 @@
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Київський торт</h3>
-                    <span class="product-box__price">від 500 грн</span>
+                    <span class="product-box__price">від 600 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -301,7 +301,7 @@
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Наполеон</h3>
-                    <span class="product-box__price">350 грн</span>
+                    <span class="product-box__price">350 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -316,7 +316,7 @@
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Медяник</h3>
-                    <span class="product-box__price">390 грн</span>
+                    <span class="product-box__price">390 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -332,7 +332,7 @@
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Шер-ами</h3>
-                    <span class="product-box__price">380 грн</span>
+                    <span class="product-box__price">380 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -348,7 +348,7 @@
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Естерха́зі</h3>
-                    <span class="product-box__price">600 грн</span>
+                    <span class="product-box__price">600 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -359,16 +359,17 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/classic/pincher.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/classic/ant.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
-                    <h3>Муравейник</h3>
-                    <span class="product-box__price">450грн</span>
+                    <h3>Мурашник</h3>
+                    <span class="product-box__price">350 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
               </div>
+              <p>Усім відомий цей торт родом із далекого дитинства. Пісочне тісто, крем із вареного згущеного молока та вершкового масла, а також, грецькі горіхи роблять цей торт дуже калорійним і ситним. Ідеально підходить до чаювання.</p>
             </div>
           </div>
 
@@ -380,7 +381,7 @@
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Кучерявый пинчер</h3>
-                    <span class="product-box__price">450грн</span>
+                    <span class="product-box__price">380 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
@@ -393,16 +394,17 @@
           
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt=""></picture>
+              <picture><img class="res-img" src="~/assets/images/classic/spartak.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>Спартак</h3>
-                    <span class="product-box__price">450грн</span>
+                    <span class="product-box__price">390 грн/кг</span>
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
               </div>
+              <p>Це один із найсмачніших і найулюбленіших десертів  багатьох людей. Тонкі шоколадні медові коржі з масляно-заварним кремом роблять торт таким ніжним, що він просто тане в роті.</p>
             </div>
           </div>
           
