@@ -68,7 +68,7 @@
         <h2 class="section-header__title">Бісквітні торти</h2>
         <p>Продукція тільки з натуральних інгредієнтів</p>
       </header>
-      <div class="products-wrap">
+      <div class="products-wrap products-wrap_7">
 
         <div class="product-flex">
           <div class="product-box">
@@ -210,7 +210,7 @@
       <header class="section-header">
         <h2 class="section-header__title">Муссові торти:</h2>
       </header>
-      <div class="products-wrap">
+      <div class="products-wrap products-wrap_5">
         <div class="product-flex">
             <div class="product-box">
               <picture><img class="res-img" src="~/assets/images/muss/three-chokolad.jpg" alt=""></picture>
@@ -281,7 +281,9 @@
                   </div>
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
-                <p>В основі торту - шоколадний тонкий бісквіт з легкою ноткою кави, слой карамелі з арахісом, прослойка з чорного шоколаду та вершковий мус з крем-сиром на білому шоколаді. Зверху торт покривається шоколадною дзеркальною глазурєю. Мусовий "Снікерс" - в міру солодкий, але водночас ситний і дуже смачний. Вартість - 700 грн/торт.</p>
+                <div class="product-box__content">
+                  <p>В основі торту - шоколадний тонкий бісквіт з легкою ноткою кави, слой карамелі з арахісом, прослойка з чорного шоколаду та вершковий мус з крем-сиром на білому шоколаді. Зверху торт покривається шоколадною дзеркальною глазурєю. Мусовий "Снікерс" - в міру солодкий, але водночас ситний і дуже смачний. Вартість - 700 грн/торт.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -315,7 +317,7 @@
         <header class="section-header">
           <h2 class="section-header__title">Класика</h2>
         </header>
-        <div class="products-wrap">
+        <div class="products-wrap products-wrap_4">
           <div class="product-flex">
             <div class="product-box">
               <picture><img class="res-img" src="~/assets/images/classic/tort-kyiv.jpg" alt=""></picture>

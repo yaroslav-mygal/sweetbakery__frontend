@@ -49,6 +49,15 @@ export default Vue.extend({
     bottom: 0;
     background: linear-gradient( 90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0,0,0,0) 70.29702970297029%);
   }
+  .page__header_home::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient( 221deg, rgba(0, 0, 0, 0.75) 0%, rgba(0,0,0,0) 70.29702970297029%);
+  }
   .page__header a {
     color: #fff;
   }
