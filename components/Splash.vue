@@ -3,7 +3,7 @@
     <div class="container">
       <div class="splash-content">
         <h1>Кондитерська з сімейними цінностями</h1>
-        <p> We’re aiming to impact millions of lives, inspire people to make the right food choices, and create a shift for the entire planet to turn vegan.</p>
+        <p>Ми хочемо зробити життя кожного смачнішим, яскравішим, додавши у ваші будні наш неповторний смаколик.</p>
         <a href="order" class="btn btn_primary">Зробити замовлення &gt;</a>
       </div>
     </div>
