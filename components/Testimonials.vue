@@ -4,15 +4,72 @@
       <header class="section-header">
         <h2 class="section-header__title">Вдячні клієнти</h2>
       </header>
-      <carousel class="story-carousel story-carousel--colors story-carousel--multiple">
+      <carousel class="story-carousel my-story-carousel story-carousel--colors story-carousel--multiple" :hideArrows="false">
         <slide class="story-carousel__slide">
           <div class="testimonial-box">
             <div class="testimonial-box__thumb">
-              
+              <img class="res-img" src="~/assets/images/testimonials/lya_elle.jpg" alt="Вдячні клієнти">
             </div>
               <blockquote>
-                <p>“I gave O’greens gift boxes to all the guests at my wedding. I wanted something delicious and different rather than giving sweets or dry fruits. Not only was the packaging elegant, O’greens customized the boxes with their delicious assorted bliss balls and bars. All my guests loved the gift boxes and they were a huge hit 💛”</p>
-                <p class="author">Vika</p>
+                <p>“Было очень вкусно, как всегда 👍 И красиво 😍 спасибо тебе большое! Так быстро съели, даже сфотографировать не успела )) ”</p>
+                <p class="author">@lya_elle</p>
+              </blockquote>
+            </div>
+        </slide>
+        <slide class="story-carousel__slide">
+          <div class="testimonial-box">
+            <div class="testimonial-box__thumb">
+              <img class="res-img" src="~/assets/images/testimonials/sosnovaiajulia.jpg" alt="Вдячні клієнти">
+            </div>
+              <blockquote>
+                <p>“Торт был нереально вкусный! Спасибо большое за индивидуальный подход к каждому заказу. Вот как я нарисовала в своем воображении этот торт, так ты его и воплотила. Гл самое главное - именинник был очень рад такому торту”</p>
+                <p class="author">sosnovaiajulia</p>
+              </blockquote>
+            </div>
+        </slide>
+        <slide class="story-carousel__slide">
+          <div class="testimonial-box">
+            <div class="testimonial-box__thumb">
+              <img class="res-img" src="~/assets/images/testimonials/anna_bulva.jpg" alt="Вдячні клієнти">
+            </div>
+              <blockquote>
+                <p>“Недостаток десертов Лены - после них вы не сможете есть сладости в кофейнях… @lenamyhal, как всегда - волшебно!!!”</p>
+                <p class="author">@anna_bulva_</p>
+              </blockquote>
+            </div>
+        </slide>
+        <slide class="story-carousel__slide">
+          <div class="testimonial-box">
+            <div class="testimonial-box__thumb">
+              <img class="res-img" src="~/assets/images/testimonials/" alt="Вдячні клієнти">
+            </div>
+              <blockquote>
+                <p>“Спасибо за вкуснейший торт и за реализацию идеи”</p>
+                <p class="author">@alina_demian</p>
+              </blockquote>
+            </div>
+        </slide>
+        <slide class="story-carousel__slide">
+          <div class="testimonial-box">
+            <div class="testimonial-box__thumb">
+              <img class="res-img" src="~/assets/images/testimonials/lya_elle.jpg" alt="Вдячні клієнти">
+            </div>
+              <blockquote>
+                <p>“Привет, Лен, торт очень понравился! Такой же вкусный, как и в прошлый раз! Спасибо огромное. Этот торт теперь наша ❤️ ”</p>
+                <p>Именинница (1 годик) тоже потребовала дать ей и попробовала, и всё хорошо, проверили малышом ))</p>
+                <p>Моя мама торты вообще не ест в принципе, не любит. Но твой тортик ей понравился, она сказала, что это впервые за много много лет ))</p>
+                <p class="author">@lya_elle</p>
+              </blockquote>
+            </div>
+        </slide>
+        <slide class="story-carousel__slide">
+          <div class="testimonial-box">
+            <div class="testimonial-box__thumb">
+              <img class="res-img" src="~/assets/images/testimonials/mail0408.jpg" alt="Вдячні клієнти">
+            </div>
+              <blockquote>
+                <p>“ … и конечно, сладости от @lenamyhal. Вкуснотища необыкновенная.”</p>
+                <p class="author">@mail0408</p>
               </blockquote>
             </div>
         </slide>
@@ -22,19 +79,41 @@
               
             </div>
               <blockquote>
-                <p>“I gave O’greens gift boxes to all the guests at my wedding. I wanted something delicious and different rather than giving sweets or dry fruits. Not only was the packaging elegant, O’greens customized the boxes with their delicious assorted bliss balls and bars. All my guests loved the gift boxes and they were a huge hit 💛”</p>
-                <p class="author">Vika</p>
+                <p>“Леночка, это невероятно вкусно!”</p>
+                <p class="author">@berkano2</p>
               </blockquote>
             </div>
         </slide>
         <slide class="story-carousel__slide">
           <div class="testimonial-box">
             <div class="testimonial-box__thumb">
-              
+               <img class="res-img" src="~/assets/images/testimonials/irinamilova3311.jpg" alt="Вдячні клієнти">
             </div>
               <blockquote>
-                <p>“I gave O’greens gift boxes to all the guests at my wedding. I wanted something delicious and different rather than giving sweets or dry fruits. Not only was the packaging elegant, O’greens customized the boxes with their delicious assorted bliss balls and bars. All my guests loved the gift boxes and they were a huge hit 💛”</p>
-                <p class="author">Vika</p>
+                <p>“Тортик очень вкусный. Нам всем, а особенно внучке, понравился. Огромное спасибо.”</p>
+                <p class="author">@irinamilova3311</p>
+              </blockquote>
+            </div>
+        </slide>
+        <slide class="story-carousel__slide">
+          <div class="testimonial-box">
+            <div class="testimonial-box__thumb">
+              <img class="res-img" src="~/assets/images/testimonials/anna_bulva.jpg" alt="Вдячні клієнти">
+            </div>
+              <blockquote>
+                <p>“Спасибо за доброе утро… безумно вкусно…”</p>
+                <p class="author">@anna_bulva_</p>
+              </blockquote>
+            </div>
+        </slide>
+        <slide class="story-carousel__slide">
+          <div class="testimonial-box">
+            <div class="testimonial-box__thumb">
+              <img class="res-img" src="~/assets/images/testimonials/lya_elle.jpg" alt="Вдячні клієнти">
+            </div>
+              <blockquote>
+                <p>“Привет, Лена! Тортик очень вкусный, легкий, в меру сладкий - всем очень понравился. Спасибо :)”</p>
+                <p class="author">@lya_elle</p>
               </blockquote>
             </div>
         </slide>
@@ -57,7 +136,10 @@
     margin: 0 auto 30px;
     width: 100px;
     height: 100px;
-    border: 2px solid #fff;;
+    border: 2px solid #fff;
+  }
+  .testimonial-box__thumb img {
+    border-radius: 50%;
   }
   .testimonial-box {
     max-width: 400px;
@@ -65,5 +147,11 @@
   .testimonial-box .author {
     display: block;
     font-weight: bold;
+  }
+  .story-carousel--multiple .story-carousel__slide {
+    flex: 0 0 33%;
+  }
+  .my-story-carousel {
+    padding: 0 40px;
   }
 </style>
