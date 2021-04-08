@@ -5,6 +5,17 @@
         <h2 class="section-header__title">Вдячні клієнти</h2>
       </header>
       <carousel class="story-carousel my-story-carousel story-carousel--colors story-carousel--multiple" :hideArrows="false">
+         <slide class="story-carousel__slide">
+          <div class="testimonial-box">
+            <div class="testimonial-box__thumb">
+              <img class="res-img" src="~/assets/images/testimonials/olenamarkovska.jpg" alt="Вдячні клієнти">
+            </div>
+              <blockquote>
+                <p>“Тортик очень вкусный, всего в нем в меру. У нас самый привередливый человек это - моя мама. Ей очень понравился торт - съела два кусочка, а это о многом говорит. Все отлично: сочетание бисквита, муссового крема и вкусной растекающейся начинки😋 Спасибо, Лена! У Вас все изделия всегда очень по-домашнему и в тоже время очень изысканно.”</p>
+                <p class="author">@dr.olenamarkovska</p>
+              </blockquote>
+            </div>
+        </slide>
         <slide class="story-carousel__slide">
           <div class="testimonial-box">
             <div class="testimonial-box__thumb">
@@ -41,7 +52,7 @@
         <slide class="story-carousel__slide">
           <div class="testimonial-box">
             <div class="testimonial-box__thumb">
-              <img class="res-img" src="~/assets/images/testimonials/" alt="Вдячні клієнти">
+              <img class="res-img" src="~/assets/images/testimonials/alina.jpg" alt="Вдячні клієнти">
             </div>
               <blockquote>
                 <p>“Спасибо за вкуснейший торт и за реализацию идеи”</p>
@@ -56,7 +67,7 @@
             </div>
               <blockquote>
                 <p>“Привет, Лен, торт очень понравился! Такой же вкусный, как и в прошлый раз! Спасибо огромное. Этот торт теперь наша ❤️ ”</p>
-                <p>Именинница (1 годик) тоже потребовала дать ей и попробовала, и всё хорошо, проверили малышом ))</p>
+                <!-- <p>Именинница (1 годик) тоже потребовала дать ей и попробовала, и всё хорошо, проверили малышом ))</p> -->
                 <p>Моя мама торты вообще не ест в принципе, не любит. Но твой тортик ей понравился, она сказала, что это впервые за много много лет ))</p>
                 <p class="author">@lya_elle</p>
               </blockquote>
@@ -76,7 +87,7 @@
         <slide class="story-carousel__slide">
           <div class="testimonial-box">
             <div class="testimonial-box__thumb">
-              
+              <img class="res-img" src="~/assets/images/testimonials/inga.jpg" alt="Вдячні клієнти">
             </div>
               <blockquote>
                 <p>“Леночка, это невероятно вкусно!”</p>
@@ -125,6 +136,8 @@
   .section_testimonials {
     color: var(--color-testimonials-text);
     background-color: var(--bg-testimonials-section);
+    margin: -40px 0 0;
+    padding: 80px 0 30px;
   }
   .testimonials-slider {
     display: flex;
