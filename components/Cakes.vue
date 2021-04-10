@@ -282,12 +282,32 @@
                   <a href="#" class="btn btn_order">Замовити</a>
                 </div>
                 <div class="product-box__content">
-                  <p>В основі торту - шоколадний тонкий бісквіт з легкою ноткою кави, слой карамелі з арахісом, прослойка з чорного шоколаду та вершковий мус з крем-сиром на білому шоколаді. Зверху торт покривається шоколадною дзеркальною глазурєю. Мусовий "Снікерс" - в міру солодкий, але водночас ситний і дуже смачний. Вартість - 700 грн/торт.</p>
+                  <p>В основі торту - шоколадний тонкий бісквіт з легкою ноткою кави, слой карамелі з арахісом, прослойка з чорного шоколаду та вершковий мус з крем-сиром на білому шоколаді. Зверху торт покривається шоколадною дзеркальною глазур'ю. Мусовий "Снікерс" - в міру солодкий, але водночас ситний і дуже смачний. Вартість - 700 грн/торт.</p>
                 </div>
               </div>
             </div>
           </div>
           
+
+<div class="product-flex">
+            <div class="product-box">
+              <picture><img class="res-img" src="~/assets/images/muss/_ananas.jpg" alt=""></picture>
+              <div class="product-box__description">
+                <div class="product-box__summary">
+                  <div class="product-box__title-info">
+                    <h3>Ананас-імбир</h3>
+                    <span class="product-box__price">700 грн/торт</span>
+                  </div>
+                  <a href="#" class="btn btn_order">Замовити</a>
+                </div>
+                <div class="product-box__content">
+                  <p>Ніжний літній тортик з мінімальним вмістом цукру. У ньому чудово поєдналися ароматний кокосовий бісквіт, ананасовий прошарок зі шматочками ананасу, що обгортається мусом на основі вершків, соку лайму та імбиру. Скуштуйте і будете вражені. 
+Зверху торт покривається кольоровою дзеркальною глазур'ю.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="product-flex">
             <div class="product-box">
               <picture><img class="res-img" src="~/assets/images/muss/vershkovo-yagidnyi.jpg" alt=""></picture>
@@ -407,23 +427,6 @@
             </div>
           </div>
 
-          <div class="product-flex">
-            <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/classic/ant.jpg" alt=""></picture>
-              <div class="product-box__description">
-                <div class="product-box__summary">
-                  <div class="product-box__title-info">
-                    <h3>Мурашник</h3>
-                    <span class="product-box__price">350 грн/кг</span>
-                  </div>
-                  <a href="#" class="btn btn_order">Замовити</a>
-                </div>
-                <div class="product-box__content">
-                  <p>Усім відомий цей торт родом із далекого дитинства. Пісочне тісто, крем із вареного згущеного молока та вершкового масла, а також, грецькі горіхи роблять цей торт дуже калорійним і ситним. Ідеально підходить до чаювання.</p>
-                </div>
-              </div>
-            </div>
-          </div>
 
 
           <div class="product-flex">
@@ -443,6 +446,27 @@
               </div>
              </div>
           </div>
+          
+
+          <div class="product-flex">
+            <div class="product-box">
+              <picture><img class="res-img" src="~/assets/images/classic/ant.jpg" alt=""></picture>
+              <div class="product-box__description">
+                <div class="product-box__summary">
+                  <div class="product-box__title-info">
+                    <h3>Мурашник</h3>
+                    <span class="product-box__price">350 грн/кг</span>
+                  </div>
+                  <a href="#" class="btn btn_order">Замовити</a>
+                </div>
+                <div class="product-box__content">
+                  <p>Усім відомий цей торт родом із далекого дитинства. Пісочне тісто, крем із вареного згущеного молока та вершкового масла, а також, грецькі горіхи роблять цей торт дуже калорійним і ситним. Ідеально підходить до чаювання.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           
 
           
