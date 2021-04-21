@@ -9,7 +9,6 @@
         <div class="product-flex">
           <div class="product-box">
             <picture>
-              
               <img class="res-img" src="~/assets/images/product-tort.jpg" alt="Торти">
             </picture>
             <div class="product-box__description">

@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Stack, StackItem } from 'vue-stack-grid';
-// import 'vue-snap/dist/vue-snap.css'
+import { Stack, StackItem } from 'vue-stack-grid'
 
-Vue.use(Stack)
+Vue.component('Stack', Stack)
+Vue.component('StackItem', StackItem)

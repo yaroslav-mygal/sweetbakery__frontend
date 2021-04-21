@@ -40,7 +40,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '@/plugins/vue-snap'
+    '@/plugins/vue-snap',
+    { src: '~/plugins/vue-stack-grid', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
