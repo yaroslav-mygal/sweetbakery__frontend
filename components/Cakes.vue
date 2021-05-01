@@ -210,7 +210,7 @@
       <header class="section-header">
         <h2 class="section-header__title">Муссові торти:</h2>
       </header>
-      <div class="products-wrap products-wrap_5">
+      <div class="products-wrap products-wrap_3">
         <div class="product-flex">
             <div class="product-box">
               <picture><img class="res-img" src="~/assets/images/muss/three-chokolad.jpg" alt=""></picture>

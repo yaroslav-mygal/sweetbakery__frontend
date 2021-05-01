@@ -140,7 +140,7 @@
     </div>
   </section>
 </template>
-<style>
+<style scoped>
   .section_products {
     background: var(--bg-product-section);
     position: relative;
@@ -149,16 +149,5 @@
   }
   .section_products .container {
     transform: skewY(2deg);
-  }
-  .section_products::before {
-    
-    /* content: '';
-    position: absolute;
-    background: var(--bg-product-section);
-    height: 40px;
-    left: 0;
-    right: 0;
-    top: -40px;
-    clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%); */
   }
 </style>
