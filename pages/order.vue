@@ -3,8 +3,10 @@
     <div class="container">
       <header class="section-header">
         <h2 class="section-header__title">Зробити замовлення</h2>
-        <p>Продукція з натуральних інградієгтів</p>
       </header>
+      <OrderForm/>
+      <OrderRules/>
+      
     </div>
   </section>
 </template>
