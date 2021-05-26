@@ -50,7 +50,12 @@
     list-style: none;
     padding: 0 15px;
   }
-  .socials-menu li a {
-
+  .socials-menu li.link-phone {
+    width: 100%;
+  }
+  @media screen and (min-width:576px){
+    .socials-menu li.link-phone {
+      width: auto;
+    }
   }
 </style>
