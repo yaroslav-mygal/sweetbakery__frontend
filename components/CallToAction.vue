@@ -35,9 +35,12 @@
     position: relative;
     z-index: 1;
   }
-  .cta-flex {
-    display: flex;
-    align-items: center;
+  
+  @media screen and (min-width:768px){
+    .cta-flex {
+      display: flex;
+      align-items: center;
+    }
   }
   .cta-flex__content {
     flex-grow: 1;

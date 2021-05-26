@@ -16,20 +16,25 @@
   </section>
 </template>
 <style scoped>
-  .about-flex {
-    display: flex;
-    align-items: flex-start;
-  }
-  .about-aside {
-    flex: 0 0 350px;
-    padding: 0 30px 0 0;
+  
+  .about-aside img {
+    width: 100%;
   }
   .about-content {
     flex-grow: 1;
     font-size: 17px;
   }
-  .about-content h2 {
+  @media screen and (min-width:768px) {
 
+    .about-flex {
+      display: flex;
+      align-items: flex-start;
+    }
+    .about-aside {
+      flex: 0 0 350px;
+      padding: 0 30px 0 0;
+    }
+    
   }
 
 </style>
