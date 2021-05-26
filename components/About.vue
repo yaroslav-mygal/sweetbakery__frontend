@@ -15,7 +15,7 @@
     </div>
   </section>
 </template>
-<style>
+<style scoped>
   .about-flex {
     display: flex;
     align-items: flex-start;

@@ -9,7 +9,7 @@
       <div class="products-wrap">
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" src="~/assets/images/top/snickers2.jpg" alt=""></picture>
+            <picture><img class="res-img" width="438" height="438" src="~/assets/images/top/snickers2.jpg" alt=""></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -26,7 +26,7 @@
         </div>
 <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/top/oreo.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/top/oreo.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -44,7 +44,7 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/top/cocos_mygdal.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/top/cocos_mygdal.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -72,7 +72,7 @@
 
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" src="~/assets/images/biscuit/krem-chiz.jpg" alt=""></picture>
+            <picture><img class="res-img" width="438" height="438" src="~/assets/images/biscuit/krem-chiz.jpg" alt=""></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -91,7 +91,7 @@
         </div>
         <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/biscuit/caramel.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/biscuit/caramel.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -109,7 +109,7 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/biscuit/shoko-ganash.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/biscuit/shoko-ganash.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -127,7 +127,7 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/biscuit/fistashkovyi.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/biscuit/fistashkovyi.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -145,7 +145,7 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/biscuit/yogurt3.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/biscuit/yogurt3.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -165,7 +165,7 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/biscuit/maslianyi-krem.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/biscuit/maslianyi-krem.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -183,7 +183,7 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/biscuit/zgushchene-moloko.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/biscuit/zgushchene-moloko.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -213,7 +213,7 @@
       <div class="products-wrap products-wrap_3">
         <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/muss/three-chokolad.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/muss/three-chokolad.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -232,7 +232,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/muss/diabella.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/muss/diabella.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -252,7 +252,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/muss/banan-karamel.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/muss/banan-karamel.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -272,7 +272,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/muss/sniсkers-muss.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/muss/sniсkers-muss.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -291,7 +291,7 @@
 
 <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/muss/_ananas.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/muss/_ananas.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -310,7 +310,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/muss/vershkovo-yagidnyi.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/muss/vershkovo-yagidnyi.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -340,7 +340,7 @@
         <div class="products-wrap products-wrap_4">
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/classic/tort-kyiv.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/classic/tort-kyiv.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -357,7 +357,7 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/classic/napoleon.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/classic/napoleon.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -375,7 +375,7 @@
           </div>
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/classic/medianyk.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/classic/medianyk.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -393,7 +393,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/classic/sher-ami.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/classic/sher-ami.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -411,7 +411,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/classic/esterkhazi.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/classic/esterkhazi.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -431,7 +431,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/classic/pincher.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/classic/pincher.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -450,7 +450,7 @@
 
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/classic/ant.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/classic/ant.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -472,7 +472,7 @@
           
           <div class="product-flex">
             <div class="product-box">
-              <picture><img class="res-img" src="~/assets/images/classic/spartak.jpg" alt=""></picture>
+              <picture><img class="res-img" width="438" height="438" src="~/assets/images/classic/spartak.jpg" alt=""></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -500,7 +500,7 @@
   
   
 </template>
-<style>
+<style scoped>
   .section_cake {
     position: relative;
     z-index: 2;

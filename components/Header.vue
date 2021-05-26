@@ -12,7 +12,6 @@
         </nav>
       </div>
     </div>
-    {{isHome}}
     <Splash v-if="isHome" />
   </header>
 </template>

@@ -13,7 +13,7 @@
     </div>
   </section>
 </template>
-<style>
+<style scoped>
   .section_cta {
     padding: 100px 0;
     background: url('~/assets/images/layout/bg-cta.jpg') no-repeat 50%;
