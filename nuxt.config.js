@@ -57,6 +57,7 @@ export default {
   modules: [
     '@nuxtjs/google-fonts',
     '@nuxtjs/fontawesome',
+    '@nuxtjs/gtm'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -76,5 +77,8 @@ export default {
       solid: true,
       brands:  true
     }
+  },
+  gtm: {
+    id: 'GTM-NZMWTP5'
   }
 }
