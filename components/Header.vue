@@ -6,8 +6,8 @@
         <nav class="main-menu">
           <ul>
             <li class="main-menu__phone-link"><a href="tel:+3806663280061">+38066380061</a></li>
-            <li><a href="#"><font-awesome-icon :icon="['fab', 'instagram']"/></a></li>
-            <li><a href="#"><font-awesome-icon :icon="['fab', 'telegram-plane']"/></a></li>
+            <li><a href="https://www.instagram.com/lenamyhal/"><font-awesome-icon :icon="['fab', 'instagram']"/></a></li>
+            <li><a href="https://telegram.me/Lena_Myhal"><font-awesome-icon :icon="['fab', 'telegram-plane']"/></a></li>
           </ul>
         </nav>
       </div>
@@ -34,9 +34,7 @@ export default Vue.extend({
   }
   .page__header_home {
     position: relative;
-    /* background: url('https://www.o-greens.com/wp-content/uploads/2020/11/Diwali-bcg.jpg') no-repeat 50%; */
     background: url('~/assets/images/layout/splash-0.jpg') no-repeat 50%;
-    /*background: url('~/assets/images/layout/splash-1.jpg') no-repeat 50%;*/
     background-size: cover;
   }
   .page__header_home::before {
@@ -46,7 +44,12 @@ export default Vue.extend({
     top: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient( 90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0,0,0,0) 70.29702970297029%);
+    background: linear-gradient( 90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0,0,0,0) 100%);
+  }
+  @media screen and (min-width:768px){
+    .page__header_home::before {
+      background: linear-gradient( 90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0,0,0,0) 70.29702970297029%);
+    }
   }
   .page__header_home::after {
     content: '';

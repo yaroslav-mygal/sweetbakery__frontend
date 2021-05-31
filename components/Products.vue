@@ -19,9 +19,9 @@
                 </div>
               </div>
               <ul class="products_type">
-                <li><a href="#" class="btn btn_type">Бісквітні</a></li>
-                <li><a href="#" class="btn btn_type">Мусові</a></li>
-                <li><a href="#" class="btn btn_type">Класика</a></li>
+                <li><a href="#" v-scroll-to="'#cake-type-1'" class="btn btn_type">Бісквітні</a></li>
+                <li><a href="#" v-scroll-to="'#cake-type-2'" class="btn btn_type">Мусові</a></li>
+                <li><a href="#" v-scroll-to="'#cake-type-3'" class="btn btn_type">Класика</a></li>
               </ul>
               <div class="product-box__content">
                 <p>Наші смачнющі тортики приємно здивують поціновувачів солодкого. У нас ви знайдете торти різного смаку: від класики до сучасних тенденцій у світі десертів.</p>

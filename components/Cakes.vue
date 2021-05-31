@@ -64,7 +64,7 @@
       </div>
 
 
-      <header class="section-header">
+      <header class="section-header" id="cake-type-1">
         <h2 class="section-header__title">Бісквітні торти</h2>
         <p>Продукція тільки з натуральних інгредієнтів</p>
       </header>
@@ -205,7 +205,7 @@
       </div>
     </div>
     </div>
-    <div class="section section_cake">
+    <div class="section section_cake" id="cake-type-2">
       <div class="container">
       <header class="section-header">
         <h2 class="section-header__title">Муссові торти:</h2>
@@ -330,7 +330,7 @@
     </div>
     </div>
 <div>
-  <section class="section section_cake">
+  <section class="section section_cake"  id="cake-type-3">
   
   
       <div class="container">

@@ -209,7 +209,6 @@ mark {
 .product-box {
   cursor: pointer;
   background-color: #fff;
-  /* box-shadow: 0 0 10px 0 rgb(218, 215, 215); */
 }
 .product-box picture {
   overflow: hidden;
@@ -221,6 +220,7 @@ mark {
   padding: 0;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 .product-box picture .products_type {
   position: absolute;

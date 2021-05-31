@@ -1,7 +1,9 @@
 <template>
-  <ul>
-    <li v-for="(item, index) in orderRules" :key="index">{{ item }}</li>
-  </ul>
+  <div class="order-rules">
+    <ul>
+      <li v-for="(item, index) in orderRules" :key="index">{{ item }}</li>
+    </ul>
+  </div>
 </template>
 
 <script lang="ts">
@@ -15,3 +17,29 @@ export default Vue.extend({
   },
 })
 </script>
+<style scoped>
+  .order-rules {
+    border: 1px solid #000;
+    padding: 20px;
+  }
+  .order-rules ul {
+    padding: 0;
+    margin: 0;
+  }
+  .order-rules li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 17px;
+  }
+  .order-rules li:before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: var(--btn-primary);
+  }
+</style>

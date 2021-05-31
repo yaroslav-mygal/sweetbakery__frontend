@@ -4,10 +4,10 @@
       <nav class="socials-menu">
         <ul>
           <li>
-            <a href="#" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']"/></a>
+            <a href="https://www.instagram.com/lenamyhal/" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']"/></a>
           </li>
           <li>
-            <a href="#" target="_blank"><font-awesome-icon :icon="['fab', 'telegram-plane']"/></a>
+            <a href="https://telegram.me/Lena_Myhal" target="_blank"><font-awesome-icon :icon="['fab', 'telegram-plane']"/></a>
           </li>
           <li>
             <a href="mailto:sweet.bakery@gmail.com" target="_blank"><font-awesome-icon :icon="['fas', 'phone-square-alt']"/></a>

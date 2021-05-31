@@ -24,7 +24,7 @@
     color: #fff;
   }
   .splash-content h1 {
-    font-size: 60px;
+    font-size: 47px;
     line-height: 1.2;
     margin: 0 0 20px;
     font-family: Lobster;
@@ -39,5 +39,15 @@
   }
   .splash-content p {
     margin: 0  0 20px;
+  }
+  @media screen and (min-width:460px) {
+    .splash-content h1 {
+      font-size: 50px;
+    }
+  }
+  @media screen and (min-width:768px) {
+    .splash-content h1 {
+      font-size: 60px;
+    }
   }
 </style>
