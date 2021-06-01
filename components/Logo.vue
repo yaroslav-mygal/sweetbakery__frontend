@@ -1,5 +1,5 @@
 <template>
-  <strong class="logo"><a href="#"><img class="res-img" src="~/assets/sweetbakery.png" /></a></strong>
+  <strong class="logo"><a href="/"><img class="res-img" src="~/assets/sweetbakery.png" /></a></strong>
 </template>
 
 <style>

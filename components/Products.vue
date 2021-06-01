@@ -10,6 +10,11 @@
           <div class="product-box">
             <picture>
               <img width="438" height="438" class="res-img" src="~/assets/images/product-tort.jpg" alt="Торти">
+              <ul class="products_type">
+                <li><a href="#" v-scroll-to="'#cake-type-1'" class="btn btn_type">Бісквітні</a></li>
+                <li><a href="#" v-scroll-to="'#cake-type-2'" class="btn btn_type">Мусові</a></li>
+                <li><a href="#" v-scroll-to="'#cake-type-3'" class="btn btn_type">Класика</a></li>
+              </ul>
             </picture>
             <div class="product-box__description">
               <div class="product-box__summary">
@@ -18,11 +23,7 @@
                   <span class="product-box__price"><em>від</em> 350 грн</span>
                 </div>
               </div>
-              <ul class="products_type">
-                <li><a href="#" v-scroll-to="'#cake-type-1'" class="btn btn_type">Бісквітні</a></li>
-                <li><a href="#" v-scroll-to="'#cake-type-2'" class="btn btn_type">Мусові</a></li>
-                <li><a href="#" v-scroll-to="'#cake-type-3'" class="btn btn_type">Класика</a></li>
-              </ul>
+              
               <div class="product-box__content">
                 <p>Наші смачнющі тортики приємно здивують поціновувачів солодкого. У нас ви знайдете торти різного смаку: від класики до сучасних тенденцій у світі десертів.</p>
               </div>
@@ -52,7 +53,14 @@
         </div>
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" width="438" height="438" src="~/assets/images/mini-cake.jpg" alt=""></picture>
+            <picture>
+              <img class="res-img" width="438" height="438" src="~/assets/images/mini-cake.jpg" alt="">
+              <ul class="products_type">
+                <li><a href="#" class="btn btn_type">Ескімо</a></li>
+                <li><a href="#" class="btn btn_type">Мусові</a></li>
+                <li><a href="#" class="btn btn_type">Відкриті</a></li>
+              </ul>
+            </picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -60,11 +68,7 @@
                   <span class="product-box__price"><em>від</em> 40 грн</span>
                 </div>
               </div>
-              <ul class="products_type">
-                <li><a href="#" class="btn btn_type">Ескімо</a></li>
-                <li><a href="#" class="btn btn_type">Мусові</a></li>
-                <li><a href="#" class="btn btn_type">Відкриті</a></li>
-              </ul>
+              
               <div class="product-box__content">
                 <p>Порційні  десерти (бісквітні чи мусові) принесуть незабутню насолоду та стануть прекрасним доповненням до вашого чаювання чи до будь-якого подарунку.</p>
               </div>

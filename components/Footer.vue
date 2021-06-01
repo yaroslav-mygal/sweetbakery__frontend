@@ -10,10 +10,10 @@
             <a href="https://telegram.me/Lena_Myhal" target="_blank"><font-awesome-icon :icon="['fab', 'telegram-plane']"/></a>
           </li>
           <li>
-            <a href="mailto:sweet.bakery@gmail.com" target="_blank"><font-awesome-icon :icon="['fas', 'phone-square-alt']"/></a>
+            <a href="tel:+380663280061" target="_blank"><font-awesome-icon :icon="['fas', 'phone-square-alt']"/></a>
           </li>
           <li class="link-phone">
-            <a href="tel:+38 (066) 328 00 61">+38 (066) 328 00 61</a>
+            <a href="tel:+380663280061">+38 (066) 328 00 61</a>
           </li>
         </ul>
       </nav>
