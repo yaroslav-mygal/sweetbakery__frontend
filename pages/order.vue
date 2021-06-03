@@ -2,7 +2,7 @@
   <section class="section">
     <div class="container">
       <header class="section-header">
-        <h2 class="section-header__title">Зробити замовлення</h2>
+        <h2 class="section-header__title">інформація</h2>
       </header>
       <OrderRules/>
       <div class="order-action">
