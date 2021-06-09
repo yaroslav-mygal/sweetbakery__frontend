@@ -8,10 +8,11 @@
 
 const robotsContent =
   process.env.ROBOTS_FOLLOW === 'follow' ? 'index,follow' : 'noindex';
+const renderingMode = process.env.RENDERING_MODE || 'server';
 
 export default {
 
-  
+  target: renderingMode,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Торт на замовлення в Харкові. Капкейки. Тістечка | Sweet bakery',
