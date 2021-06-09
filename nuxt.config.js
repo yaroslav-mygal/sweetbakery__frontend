@@ -1,18 +1,17 @@
 // robots follow / we want only prod to be indexed
-const robotsContent = process.env.ROBOTS_FOLLOW === 'follow' ? 'index,follow' : 'noindex';
+// const robotsContent = process.env.ROBOTS_FOLLOW === 'follow' ? 'index,follow' : 'noindex';
 
 
-console.info('Building Application with following params', {
-  robotsContent,
-});
+// console.info('Building Application with following params', {
+//   robotsContent,
+// });
 
+const robotsContent =
+  process.env.ROBOTS_FOLLOW === 'follow' ? 'index,follow' : 'noindex';
 
 export default {
 
-  env: {
-    robots: robotsContent === 'index,follow'
-  },
-
+  
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Торт на замовлення в Харкові. Капкейки. Тістечка | Sweet bakery',
@@ -26,7 +25,13 @@ export default {
       { hid: 'meta:robots', name: 'robots', content: robotsContent }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'manifest', href: '/site.webmanifest' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/favicon-16x16.png', sizes:'16x16' },
+      { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png', sizes:'32x32' },
+      { rel: 'apple-touch-icon', href: '/apple-touch-icon.png'},
+      { rel: 'icon', type: 'image/png', href: '/android-chrome-192x192.png', sizes:'192x192' },
+      { rel: 'icon', type: 'image/png', href: '/android-chrome-512x512.png', sizes:'512x512' },
     ]
   },
   server: {
