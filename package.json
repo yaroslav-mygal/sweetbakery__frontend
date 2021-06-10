@@ -15,9 +15,10 @@
     "@nuxtjs/gtm": "^2.4.0",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
+    "vue-masonry": "^0.13.0",
+    "vue-no-ssr": "^1.1.1",
     "vue-scrollto": "^2.20.0",
-    "vue-snap": "^0.7.0",
-    "vue-stack-grid": "^1.2.2"
+    "vue-snap": "^0.7.0"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.2",

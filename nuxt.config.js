@@ -48,7 +48,7 @@ export default {
   plugins: [
     '@/plugins/vue-snap',
     '@/plugins/vue-scrollto',
-    { src: '~/plugins/vue-stack-grid', mode: 'client' }
+    { src: '~/plugins/vue-masonry', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
