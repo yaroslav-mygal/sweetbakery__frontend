@@ -4,7 +4,7 @@
       <div class="splash-content">
         <h1>Кондитерська з сімейними цінностями</h1>
         <p>Ми хочемо зробити життя кожного смачнішим, яскравішим, додавши у ваші будні наш неповторний смаколик.</p>
-        <a href="order" class="btn btn_primary">Зробити замовлення &gt;</a>
+        <nuxt-link class="btn btn_primary" to="order">Зробити замовлення &gt;</nuxt-link>
       </div>
     </div>
   </div>

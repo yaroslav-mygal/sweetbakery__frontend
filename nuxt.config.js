@@ -22,7 +22,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Замовити торт в Харькові' },
+      { hid: 'description', name: 'description', content: 'Смачні торти на замовлення в Харкові. Натуральні торти та випічка в Харкові. Широкий вибір начинок для торту. Замовити торт в Харкові на День народження, весілля, корпоратив' },
       { hid: 'meta:robots', name: 'robots', content: robotsContent }
     ],
     link: [

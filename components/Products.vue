@@ -28,7 +28,7 @@
                 <p>Наші смачнющі тортики приємно здивують поціновувачів солодкого. У нас ви знайдете торти різного смаку: від класики до сучасних тенденцій у світі десертів.</p>
               </div>
               <div class="product-box__action">
-                <a href="#" class="btn btn_order">Замовити</a>
+                <nuxt-link class="btn btn_order" to="order">Замовити</nuxt-link>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
                 <p>Це - порційний торт у паперовому стаканчику, в якому прекрасно поєднуються різні варіанти тіста, велика кількість начинки і висока ніжна “шапочка”.</p>
               </div>
               <div class="product-box__action">
-                <a href="#" class="btn btn_order">Замовити</a>
+                <nuxt-link class="btn btn_order" to="order">Замовити</nuxt-link>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@
                 <p>Порційні  десерти (бісквітні чи мусові) принесуть незабутню насолоду та стануть прекрасним доповненням до вашого чаювання чи до будь-якого подарунку.</p>
               </div>
               <div class="product-box__action">
-                <a href="#" class="btn btn_order">Замовити</a>
+                <nuxt-link class="btn btn_order" to="order">Замовити</nuxt-link>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
                 <p>Повітряний порційний десерт на палочці задовольнить будь-якого маленького вередуна чи стане прекрасним прикрашанням вашого торту.</p>
               </div>
               <div class="product-box__action">
-                <a href="#" class="btn btn_order">Замовити</a>
+                <nuxt-link class="btn btn_order" to="order">Замовити</nuxt-link>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@
 </p>
               </div>
               <div class="product-box__action">
-                <a href="#" class="btn btn_order">Замовити</a>
+                <nuxt-link class="btn btn_order" to="order">Замовити</nuxt-link>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@
                 <p>Для прихильників правильного харчування пропонуємо смачнющі десерти без білого цукру та пшеничного борошна. ПП-шоколад готуємо виключно самостійно з какао-бобів та какао-масла вищого ґатунку.</p>
               </div>
               <div class="product-box__action">
-                <a href="#" class="btn btn_order">Замовити</a>
+                <nuxt-link class="btn btn_order" to="order">Замовити</nuxt-link>
               </div>
             </div>
           </div>
