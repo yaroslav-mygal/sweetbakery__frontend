@@ -10,10 +10,10 @@
             <a href="https://telegram.me/Lena_Myhal" target="_blank"><font-awesome-icon :icon="['fab', 'telegram-plane']"/></a>
           </li>
           <li>
-            <a href="tel:+380663280061" target="_blank"><font-awesome-icon :icon="['fas', 'phone-square-alt']"/></a>
+            <a target="_blank" href="tel:+380663280061" target="_blank"><font-awesome-icon :icon="['fas', 'phone-square-alt']"/></a>
           </li>
           <li class="link-phone">
-            <a href="tel:+380663280061">+38 (066) 328 00 61</a>
+            <a target="_blank" href="tel:+380663280061">+38 (066) 328 00 61</a>
           </li>
         </ul>
       </nav>

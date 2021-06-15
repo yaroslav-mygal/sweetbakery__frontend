@@ -5,9 +5,9 @@
         <Logo />
         <nav class="main-menu">
           <ul>
-            <li class="main-menu__phone-link"><a href="tel:+3806663280061">+38066380061</a></li>
-            <li><a href="https://www.instagram.com/lenamyhal/"><font-awesome-icon :icon="['fab', 'instagram']"/></a></li>
-            <li><a href="https://telegram.me/Lena_Myhal"><font-awesome-icon :icon="['fab', 'telegram-plane']"/></a></li>
+            <li class="main-menu__phone-link"><a target="_blank" href="tel:+3806663280061">+38066380061</a></li>
+            <li><a target="_blank" href="https://www.instagram.com/lenamyhal/"><font-awesome-icon :icon="['fab', 'instagram']"/></a></li>
+            <li><a target="_blank" href="https://telegram.me/Lena_Myhal"><font-awesome-icon :icon="['fab', 'telegram-plane']"/></a></li>
           </ul>
         </nav>
       </div>
