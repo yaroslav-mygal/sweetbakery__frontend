@@ -23,10 +23,11 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Смачні торти на замовлення в Харкові. Натуральні торти та випічка в Харкові. Широкий вибір начинок для торту. Замовити торт в Харкові на День народження, весілля, корпоратив' },
-      { hid: 'meta:robots', name: 'robots', content: robotsContent }
+      { hid: 'meta:robots', name: 'robots', content: robotsContent },
+      { name: 'theme-color', content: '#00a081' },
     ],
     link: [
-      { rel: 'manifest', href: '/site.webmanifest' },
+      // { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'icon', type: 'image/png', href: '/favicon-16x16.png', sizes:'16x16' },
       { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png', sizes:'32x32' },
@@ -63,11 +64,12 @@ export default {
   modules: [
     '@nuxtjs/google-fonts',
     '@nuxtjs/fontawesome',
-    '@nuxtjs/gtm'
-  ],
-
+    '@nuxtjs/gtm',
+    '@nuxtjs/pwa',
+  ], 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    publicPath: '/',
   },
   googleFonts: {
     families: {
@@ -86,5 +88,26 @@ export default {
   },
   gtm: {
     id: 'GTM-NZMWTP5'
-  }
+  },
+  pwa: {
+    icon: {
+      source: '/android-chrome-512x512.png',
+      purpose: 'maskable'
+    },
+    meta: {
+      name: 'Sweet Bakery ',
+      author: 'Yaroslav Myhal',
+      description: 'Смачні торти на замовлення в Харкові. Натуральні торти та випічка в Харкові. Широкий вибір начинок для торту. Замовити торт в Харкові на День народження, весілля, корпоратив',
+      theme_color: '#00a081',
+      background_color: '#ffffff'
+    },
+    manifest: {
+      name: 'Sweet Bakery',
+      short_name: 'Sweet Bakery PWA',
+      description: 'Смачні торти на замовлення в Харкові. Натуральні торти та випічка в Харкові. Широкий вибір начинок для торту. Замовити торт в Харкові на День народження, весілля, корпоратив',
+      lang: 'uk',
+      display: 'standalone',
+    },
+  },
+
 }
