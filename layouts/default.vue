@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="page page_default">
     <Header />
     <main id="page__main" role="main">
       <Nuxt />

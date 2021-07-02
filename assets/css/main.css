@@ -90,6 +90,9 @@ h4 {
 h5 {
   font-size: 20px;
 }
+h6 {
+  font-size: 18px;
+}
 .title_marked {
   position: relative;
   padding-bottom: 10px;
@@ -146,6 +149,7 @@ h5 {
 .section {
   padding: 40px 0;
 }
+
 /* spec styles */
 mark {
   background-color: var(--btn-primary);
@@ -290,4 +294,24 @@ mark {
 }
 .product-box__content p:last-child {
   margin-bottom: 0;
+}
+.main-content ul {
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+/* section_main  */
+.splash_single {
+  background: url(/_nuxt/assets/images/layout/splash-0.jpg) no-repeat 50%;
+  background-size: cover;
+  padding: 40px 0;
+  color: #fff;
+}
+.splash_single h1 {
+  line-height: 1.2;
+  margin: 0 0 20px;
+  font-family: Lobster;
+  font-weight: normal;
+}
+.page_single .section_main .container {
+  max-width: 800px;
 }

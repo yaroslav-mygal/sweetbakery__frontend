@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="page page_home">
     <Header isHome="true" />
     <Nuxt />
     <Footer />

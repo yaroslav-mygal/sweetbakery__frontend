@@ -2,37 +2,37 @@
   <div class="general-cakes">
     <div class="section section_cake">
       <div class="container">
-      
-      <header class="section-header">
-        <h2 class="section-header__title">Топ наших замовлень</h2>
-      </header>
-      <div class="products-wrap">
-        <div class="product-flex" :key="index" v-for="(item, index) in topCakes">
-          <div class="product-box">
-            <picture><img class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
-            <div class="product-box__description">
-              <div class="product-box__summary">
-                <div class="product-box__title-info">
-                  <h3>{{ item.name }}</h3>
-                  <span class="product-box__price">{{ item.price }} грн/кг</span>
+        <header class="section-header">
+          <h2 class="section-header__title">Топ наших замовлень</h2>
+        </header>
+        <div class="products-wrap">
+          <div class="product-flex" :key="index" v-for="(item, index) in topCakes">
+            <div class="product-box">
+              <picture><img class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
+              <div class="product-box__description">
+                <div class="product-box__summary">
+                  <div class="product-box__title-info">
+                    <h3>{{ item.name }}</h3>
+                    <span class="product-box__price">{{ item.price }} грн/кг</span>
+                  </div>
+                  <nuxt-link class="btn btn_order" to="order">Зробити</nuxt-link>
                 </div>
-                <nuxt-link class="btn btn_order" to="order">Зробити</nuxt-link>
-              </div>
-              <div class="product-box__content">
-                <p>{{ item.description }}</p>
+                <div class="product-box__content">
+                  <p>{{ item.description }}</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-
+    </div>
+    <div class="section section_cake">
+      <div class="container">
       <header class="section-header" id="cake-type-1">
         <h2 class="section-header__title">Бісквітні торти</h2>
         <p>Продукція тільки з натуральних інгредієнтів</p>
       </header>
       <div class="products-wrap products-wrap_7">
-
         <div class="product-flex" :key="index" v-for="(item, index) in biscuitCakes">
           <div class="product-box">
             <picture><img class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
