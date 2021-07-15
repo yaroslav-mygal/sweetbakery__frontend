@@ -214,7 +214,7 @@ mark {
   cursor: pointer;
   background-color: #fff;
 }
-.product-box picture {
+.product-box .picture {
   overflow: hidden;
   display: block;
   width: 100%;
@@ -226,7 +226,7 @@ mark {
   display: flex;
   flex-wrap: wrap;
 }
-.product-box picture .products_type {
+.product-box .picture .products_type {
   position: absolute;
   justify-content: center;
   left: 10px;

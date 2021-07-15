@@ -56,7 +56,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxt/typescript-build'
+    '@nuxt/typescript-build',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -86,5 +87,14 @@ export default {
   },
   gtm: {
     id: 'GTM-NZMWTP5'
+  },
+  image: {
+    provider: 'static',
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024
+    },
   }
 }
