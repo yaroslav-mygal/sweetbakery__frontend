@@ -8,7 +8,7 @@
       <no-ssr>
         <div v-masonry transition-duration="1s" column-width="300" item-selector=".item" class="masonry-container">
           <div v-masonry-tile class="item" :key="index" v-for="(item, index) in images" :class="item.class" stamp=".stamp">
-            <img :src="item.src" :alt="item.alt">
+            <img :src="item.src"  loading="lazy" :alt="item.alt">
           </div>
         </div>
       </no-ssr>

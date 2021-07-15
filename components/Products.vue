@@ -9,7 +9,7 @@
         <div class="product-flex">
           <div class="product-box">
             <picture>
-              <img width="438" height="438" class="res-img" src="~/assets/images/product-tort.jpg" alt="Торти">
+              <img width="438" height="438"  loading="lazy" class="res-img" src="~/assets/images/product-tort.jpg" alt="Торти">
               <ul class="products_type">
                 <li><a href="#" v-scroll-to="'#cake-type-1'" class="btn btn_type">Бісквітні</a></li>
                 <li><a href="#" v-scroll-to="'#cake-type-2'" class="btn btn_type">Мусові</a></li>
@@ -36,7 +36,7 @@
         
         <div class="product-flex">
           <div class="product-box">
-            <picture><img width="438" height="438" class="res-img" src="~/assets/images/product-cake-2.jpg" alt="Капкейки"></picture>
+            <picture><img width="438" loading="lazy" height="438" class="res-img" src="~/assets/images/product-cake-2.jpg" alt="Капкейки"></picture>
             <div class="product-box__description">
               <h3>Капкейки</h3>
               <div class="product-box__summary">
@@ -54,7 +54,7 @@
         <div class="product-flex">
           <div class="product-box">
             <picture>
-              <img class="res-img" width="438" height="438" src="~/assets/images/mini-cake.jpg" alt="">
+              <img class="res-img" loading="lazy" width="438" height="438" src="~/assets/images/mini-cake.jpg" alt="">
               <ul class="products_type">
                 <li><a href="#" class="btn btn_type">Ескімо</a></li>
                 <li><a href="#" class="btn btn_type">Мусові</a></li>
@@ -81,7 +81,7 @@
         <div class="product-flex">
           <div class="product-box">
             
-            <picture><img class="res-img" width="438" height="438" src="~/assets/images/product-marengo.jpg" alt="Меренга"></picture>
+            <picture><img class="res-img" loading="lazy" width="438" height="438" src="~/assets/images/product-marengo.jpg" alt="Меренга"></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -100,7 +100,7 @@
         </div>
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" width="438" height="438" src="~/assets/images/cake-pops.jpg" alt=""></picture>
+            <picture><img class="res-img" loading="lazy" width="438" height="438" src="~/assets/images/cake-pops.jpg" alt=""></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -121,7 +121,7 @@
 
         <div class="product-flex">
           <div class="product-box">
-            <picture><img class="res-img" width="438" height="438" src="~/assets/images/PP/PP-tart.jpg" alt=""></picture>
+            <picture><img class="res-img" loading="lazy" width="438" height="438" src="~/assets/images/PP/PP-tart.jpg" alt=""></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">

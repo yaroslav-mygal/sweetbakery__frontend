@@ -8,7 +8,7 @@
         <div class="products-wrap">
           <div class="product-flex" :key="index" v-for="(item, index) in topCakes">
             <div class="product-box">
-              <picture><img class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
+              <picture><img class="res-img" loading="lazy" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
@@ -35,7 +35,7 @@
       <div class="products-wrap products-wrap_7">
         <div class="product-flex" :key="index" v-for="(item, index) in biscuitCakes">
           <div class="product-box">
-            <picture><img class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
+            <picture><img class="res-img" loading="lazy" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -62,7 +62,7 @@
       <div class="products-wrap products-wrap_3">
         <div class="product-flex" :key="index" v-for="(item, index) in musCakes">
           <div class="product-box">
-            <picture><img class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
+            <picture><img class="res-img" loading="lazy" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -91,7 +91,7 @@
         <div class="products-wrap products-wrap_4">
           <div class="product-flex" :key="index" v-for="(item, index) in classicCakes">
           <div class="product-box">
-            <picture><img class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
+            <picture><img class="res-img" loading="lazy" width="438" height="438" :src="item.imgSrc" :alt="item.name"></picture>
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
