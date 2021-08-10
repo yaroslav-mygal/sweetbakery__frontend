@@ -19,6 +19,8 @@ html {
   --bg-product-section: #f8f8f8;
   --bg-testimonials-section: #1d1e1f;
   --color-testimonials-text: #fff;
+  /* sub color  */
+  --color-sub: #f1db39;
 }
 body {
   padding: 0;
@@ -242,6 +244,7 @@ mark {
 }
 .product-box picture img {
   width: 100%;
+  height: auto;
   display: block;
   transition: all 0.2s ease-in-out;
 }
@@ -259,9 +262,6 @@ mark {
 .product-box__description {
   background-color: #fff;
   padding: 15px;
-}
-.product-box:hover picture img {
-  transform: scale(1.2);
 }
 .product-box__summary {
   display: flex;
@@ -314,4 +314,9 @@ mark {
 }
 .page_single .section_main .container {
   max-width: 800px;
+}
+@media screen and (min-width: 768px) {
+  .product-box picture:hover img {
+    transform: scale(1.2);
+  }
 }

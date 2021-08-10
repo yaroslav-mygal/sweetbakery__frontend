@@ -90,4 +90,8 @@ export default Vue.extend({
     list-style: none;
     padding: 0 0 0 20px;
   }
+  .main-menu a:hover {
+    color: var(--color-sub);
+    
+  }
 </style>

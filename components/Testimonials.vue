@@ -4,7 +4,7 @@
       <header class="section-header">
         <h2 class="section-header__title">Вдячні клієнти</h2>
       </header>
-      <carousel class="story-carousel my-story-carousel story-carousel--colors story-carousel--multiple" :hideArrows="false">
+      <carousel class="story-carousel my-story-carousel story-carousel--colors story-carousel--multiple story-carousel--images" :hideArrows="false">
         <slide class="story-carousel__slide" :key="index" v-for="(item, index) in testimonialsData">
           <div class="testimonial-box">
             <div class="testimonial-box__thumb">
@@ -43,7 +43,8 @@
     border-radius: 50%;
   }
   .testimonial-box {
-    max-width: 400px;
+    /* max-width: 400px; */
+    min-width:320px;
   }
   .testimonial-box .author {
     display: block;
@@ -54,6 +55,11 @@
   }
   .my-story-carousel {
     padding: 0 40px;
+  }
+  @media screen and (min-width: 768px) {
+    .testimonial-box {
+      max-width: 400px;
+    }
   }
 </style>
 <script>
