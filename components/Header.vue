@@ -92,6 +92,5 @@ export default Vue.extend({
   }
   .main-menu a:hover {
     color: var(--color-sub);
-    
   }
 </style>
