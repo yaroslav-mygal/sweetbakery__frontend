@@ -3,7 +3,7 @@
     <div class="container">
       <div class="about-flex">
         <aside class="about-aside">
-          <img class="res-img" src="https://www.o-greens.com/wp-content/uploads/2020/07/Cashew-Cinnamon-bliss-balls-300x300.jpg" alt="">
+          <nuxt-picture loading="lazy" class="res-img" width="400" height="300" src="/images/about.jpg" alt="about image" />
         </aside>
         <div class="about-content">
           <h3>Що вирізняє нас з-поміж інших кондитерських?</h3>

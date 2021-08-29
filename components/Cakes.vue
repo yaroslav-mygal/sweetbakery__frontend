@@ -8,14 +8,14 @@
         <div class="products-wrap">
           <div class="product-flex" :key="index" v-for="(item, index) in topCakes">
             <div class="product-box">
-              <nuxt-picture loading="lazy" class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name" />
+              <nuxt-picture loading="lazy" class="res-img" width="430" height="250" :src="item.imgSrc" :alt="item.name" />
               <div class="product-box__description">
                 <div class="product-box__summary">
                   <div class="product-box__title-info">
                     <h3>{{ item.name }}</h3>
                     <span class="product-box__price">{{ item.price }} грн/кг</span>
                   </div>
-                  <nuxt-link class="btn btn_order" to="order">Зробити</nuxt-link>
+                  <nuxt-link class="btn btn_order" to="order">Замовити</nuxt-link>
                 </div>
                 <div class="product-box__content">
                   <p>{{ item.description }}</p>
@@ -35,7 +35,7 @@
       <div class="products-wrap products-wrap_7">
         <div class="product-flex" :key="index" v-for="(item, index) in biscuitCakes">
           <div class="product-box">
-            <nuxt-picture loading="lazy" class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name" />
+            <nuxt-picture loading="lazy" class="res-img" width="430" height="250" :src="item.imgSrc" :alt="item.name" />
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -62,7 +62,7 @@
       <div class="products-wrap products-wrap_3">
         <div class="product-flex" :key="index" v-for="(item, index) in musCakes">
           <div class="product-box">
-            <nuxt-picture loading="lazy" class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name" />
+            <nuxt-picture loading="lazy" class="res-img" width="430" height="250" :src="item.imgSrc" :alt="item.name" />
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
@@ -91,7 +91,7 @@
         <div class="products-wrap products-wrap_4">
           <div class="product-flex" :key="index" v-for="(item, index) in classicCakes">
           <div class="product-box">
-            <nuxt-picture loading="lazy" class="res-img" width="438" height="438" :src="item.imgSrc" :alt="item.name" />
+            <nuxt-picture loading="lazy" class="res-img" width="430" height="250" :src="item.imgSrc" :alt="item.name" />
             <div class="product-box__description">
               <div class="product-box__summary">
                 <div class="product-box__title-info">
