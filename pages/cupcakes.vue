@@ -53,6 +53,7 @@
         </div>
       </div>
     </div>
+    <CallToActionSingle product="cupcakes" title="Замовити капкейк у Харкові" />
   </div>
   
 </template>
