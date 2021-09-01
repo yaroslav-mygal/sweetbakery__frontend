@@ -4,7 +4,6 @@
     <main id="page__main" role="main">
       <Nuxt />
     </main>
-    <CallToAction/>
     <Footer />
   </div>
 </template>

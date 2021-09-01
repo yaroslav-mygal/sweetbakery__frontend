@@ -70,7 +70,6 @@ export default Vue.extend({
         },
         cupcake: {
           price: 50
-
         },
         tisto: {
           category: ['Ескімо', 'Мусові', 'Відкриті']
