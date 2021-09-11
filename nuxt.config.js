@@ -41,6 +41,7 @@ export default {
   
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/buefy.scss',
     '@/assets/css/main.css'
   ],
 
@@ -64,7 +65,8 @@ export default {
   modules: [
     '@nuxtjs/google-fonts',
     '@nuxtjs/fontawesome',
-    '@nuxtjs/gtm'
+    '@nuxtjs/gtm',
+    'nuxt-buefy'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -96,5 +98,8 @@ export default {
       md: 768,
       lg: 1024
     },
+  },
+  buefy: {
+    css: false
   }
 }

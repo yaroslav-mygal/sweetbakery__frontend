@@ -2,12 +2,15 @@
   <div class="order-content">
     <div class="order-form">
       <form action="#">
-        <div class="form-group">
-          <label for="">Вид</label>
-          <select v-model="order.type">
-            <option v-for="(item, index) in form.type" :key="index">{{ item }}</option>
-          </select>
-        </div>
+        <b-datepicker v-model="date" 
+        inline 
+        :unselectable-days-of-week="[0, 6]">
+      </b-datepicker>
+        <b-field label="Simple">
+            <b-select placeholder="Select a name" v-model="order.type">
+                <option v-for="(item, index) in form.type" :key="index">{{ item }}</option>
+            </b-select>
+        </b-field>
         <!-- tort -->
         <div v-if="order.type === 'Торт'">
           <div class="form-group" >
