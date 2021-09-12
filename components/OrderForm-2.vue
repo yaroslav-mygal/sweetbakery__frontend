@@ -14,7 +14,7 @@
             </b-datetimepicker>
         </b-field> -->
         <input v-model="message" placeholder="отредактируй меня">
-<p>Введённое сообщение: {{ message }}</p>
+          <p>Введённое сообщение: {{ message }}</p>
           </div>
           <div class="column">
             <b-field label="Продукція">
