@@ -1,104 +1,135 @@
 <template>
   <div class="order-content">
-    <div class="order-form">
-      
+    <div class="order-form columns">
+      <div class="column">
         <!-- torts -->
-        <div class="columns">
-          <div class="column">
-            <b-field label="Дата">
-              <b-datetimepicker
-                v-model="order.date"
-                placeholder="Обрати"
-                icon="calendar-today"
-                locale="ru-Ru"
-                editable>
-              </b-datetimepicker>
-            </b-field>
-          </div>
-          <div class="column">
-            <b-field label="Вид">
-              <b-select placeholder="Я хочу замовити" v-model="order.type">
-                <option v-for="(item, index) in formData" :key="index" :value="index">{{ item.name[getcurrentLang] }}</option>
-            </b-select>
-            </b-field>
-          </div>
-          <!-- <div class="column">
-            
-          </div> -->
-
-          
-        </div>
-        <!-- for torts only-->
-        <div v-if="order.type==='tort'">
-
           <div class="columns">
-
             <div class="column">
-              <b-field label="Вага">
-                <b-select placeholder="Обрати" v-model="order.tort.weight">
-                    <option
-                        v-for="(item, index) in formData[order.type].data.weight" :key="index">
-                        {{ item }}
-                    </option>
-                </b-select>
+              <b-field label="Дата">
+                <b-datetimepicker
+                  v-model="order.date"
+                  placeholder="Обрати"
+                  icon="calendar-today"
+                  :locale="getCalendarLocale"
+                  editable>
+                </b-datetimepicker>
               </b-field>
             </div>
-
             <div class="column">
-              <b-field label="Тип Торта">
-                <b-select placeholder="Обрати" v-model="order.tort.kind">
-                    <option
-                        v-for="(item, index) in formData[order.type].data.type" :key="index" :value="index">
-                        {{ item.name[getcurrentLang] }}
-                    </option>
-                </b-select>
+              <b-field label="Вид">
+                <b-select placeholder="Я хочу замовити" v-model="order.type" expanded>
+                  <option v-for="(item, index) in formData" :key="index" :value="index">{{ item.name[getcurrentLang] }}</option>
+              </b-select>
               </b-field>
             </div>
-            <!-- bisquit start -->
-              <div class="column" v-if="order.tort.kind === 'bisquit'">
-                <b-field label="Корж">
-                  <b-select placeholder="Обрати" v-model="order.tort.korj">
+            <!-- <div class="column">
+              
+            </div> -->
+
+            
+          </div>
+          <!-- for torts only-->
+          <div v-if="order.type==='tort'">
+
+            <div class="columns">
+
+              <div class="column">
+                <b-field label="Вага">
+                  <b-select placeholder="Обрати" v-model="order.tort.weight" expanded>
                       <option
-                          v-for="(item, index) in formData.tort.data.type[order.tort.kind].korj" :key="index" :value="index">
+                          v-for="(item, index) in formData[order.type].data.weight" :key="index">
+                          {{ item }}
+                      </option>
+                  </b-select>
+                </b-field>
+              </div>
+
+              <div class="column">
+                <b-field label="Тип Торта">
+                  <b-select placeholder="Обрати" v-model="order.tort.kind" expanded>
+                      <option
+                          v-for="(item, index) in formData[order.type].data.type" :key="index" :value="index">
+                          {{ item.name[getcurrentLang] }}
+                      </option>
+                  </b-select>
+                </b-field>
+              </div>
+              <!-- bisquit start -->
+                <div class="column" v-if="order.tort.kind === 'bisquit'">
+                  <b-field label="Корж">
+                    <b-select placeholder="Обрати" v-model="order.tort.korj" expanded>
+                        <option
+                            v-for="(item, index) in formData.tort.data.type[order.tort.kind].korj" :key="index" :value="index">
+                            {{ item[getcurrentLang] }}
+                        </option>
+                    </b-select>
+                  </b-field>
+                </div>
+                <div class="column" v-if="order.tort.kind">
+                  <b-field label="Начинка">
+                    <b-select placeholder="Обрати" expanded>
+                        <option
+                            v-for="(item, index) in formData.tort.data.type[order.tort.kind].kind" :key="index">
+                            {{ item[getcurrentLang] }} - {{ item.price }} грн/кг
+                        </option>
+                    </b-select>
+                  </b-field>
+                </div>
+              
+              <!-- bisquit end -->
+
+            </div>
+
+            <h3>Оформлення</h3>
+
+            <div class="block">
+              <b-checkbox v-model="checkboxGroup" v-for="(item, index) in formData.tort.decoration"
+                  native-value="Silver" :key="index">
+                  {{ item[getcurrentLang] }} - {{ item.price }}грн
+              </b-checkbox>
+          </div>
+          </div>
+
+          <div  v-if="isAmountProducts">
+            <div class="columns">
+              <div class="column">
+                <b-field label="Кількість">
+                  <b-numberinput v-model="order[order.type].amount" :placeholder="formData[order.type].amountFrom" :min="formData[order.type].amountFrom"></b-numberinput>
+                </b-field>
+              </div>
+              <!-- column 2 -->
+            </div>
+          </div>
+
+          <!-- if pp -->
+          <!-- <div  v-if="order.type=='pp'">
+            <div class="columns">
+              <div class="column">
+                <b-field label="Вид">
+                  <b-select placeholder="Обрати" v-model="order.pp.category">
+                      <option
+                          v-for="(item, index) in formData[order.type].category" :key="index" :value="index">
                           {{ item[getcurrentLang] }}
                       </option>
                   </b-select>
                 </b-field>
               </div>
-              <div class="column" v-if="order.tort.kind">
-                <b-field label="Начинка">
-                  <b-select placeholder="Обрати">
-                      <option
-                          v-for="(item, index) in formData.tort.data.type[order.tort.kind].kind" :key="index">
-                          {{ item[getcurrentLang] }} - {{ item.price }} грн/кг
-                      </option>
-                  </b-select>
-                </b-field>
-              </div>
-            
-            <!-- bisquit end -->
-            
-          
-          </div>
-        </div>
-
-        <div  v-if="order.type==='cupcake'">
-          <div class="columns">
-            <div class="column">
-              <b-field label="Кількість">
-                <b-numberinput v-model="order.cupcakes.amount" :placeholder="formData.cupcake.amountFrom" :min="formData.cupcake.amountFrom"></b-numberinput>
-              </b-field>
             </div>
-          </div>
-        </div>
+          </div> -->
           
-        <div class="form-group">
-          <button @click.prevent="calc">Calc</button>
-        </div>
-    </div>
-    <aside class="order-aside">
-      {{ order }}
-    </aside>
+            
+          <div class="form-group">
+            <button @click.prevent="calc">Calc</button>
+          </div>
+      </div>
+      </div>
+      <div class="column">
+        <aside class="order-aside">
+          {{ order }}
+        </aside>
+      </div>
+        
+    
   </div>
   
 </template>
@@ -267,6 +298,38 @@ export default Vue.extend ({
                 }
               }
             },
+            decoration:[
+              {
+                uk: 'Пряники',
+                ru: 'Пряники',
+                price: '60'
+              },
+              {
+                uk: 'Шоколадні фігурки',
+                ru: 'Шоколадні фігурки',
+                price: '150'
+              },
+              {
+                uk: 'Льодяники',
+                ru: 'Льодяники',
+                price: '10'
+              },
+              {
+                uk: 'Дерев`яний, акриловий топпер',
+                ru: 'Дерев`яний, акриловий топпер',
+                price: '10'
+              },
+              {
+                uk: 'Несезонні ягоди',
+                ru: 'Несезонні ягоди',
+                price: '10'
+              },
+              {
+                uk: 'Живі квіти',
+                ru: 'Живі квіти',
+                price: '10'
+              }
+            ]
           },
           cupcake: {
             name: {
@@ -280,22 +343,32 @@ export default Vue.extend ({
             name: {
               uk: 'Меренга',
               ru: 'Меренга'
-            }
+            },
+            amountFrom: 7,
+            price: 15
           },
           cakepops: {
             name: {
               uk: 'Кейк-попси',
               ru: 'Кейк-попсы'
-            }
+            },
+            amountFrom: 10,
+            price: 40
           },
-          pp: {
+          pp_cake: {
             name: {
-              uk: 'ПП-продукція',
-              ru: 'ПП-продукция'
-            }
-          }
+              uk: 'ПП-тарт',
+              ru: 'ПП-тарт'
+            },
+          },
+          pp_candy: {
+            name: {
+              uk: 'ПП-цукерки',
+              ru: 'ПП-цукерки'
+            },
+          },
       },
-      order: {
+      order:{
         date: new Date(new Date().getTime()+(4*24*60*60*1000)),
         type: '',
         name: '',
@@ -305,28 +378,33 @@ export default Vue.extend ({
           weight: '',
           price: 0
         },
-        cupcakes: {
-          amount: 0,
-        }
-        // tort: {
-        //   weight: '',
-        // },
-        // amount: 0,
-        // price: 0,
-        // cake: {
-        //   category: '',
-        //   weight: 0
-        // },
-        // tisto: {
-        //   category: ''
-        // }
+        pp_cake: '',
+        pp_candy: {
+          amount: 10,
+        },
+        cupcake: {
+          amount: 15,
+        },
+        meringue: {
+          amount: 7,
+        },
+        cakepops: {
+          amount: 10,
+        },
       }
     }
   },
   computed: {
     getcurrentLang() {
-      return "ru";
+      return "uk";
     },
+    getCalendarLocale: function(): string {
+      return this.getcurrentLang==='uk' ? 'uk-UA' : 'ru-RU';
+    },
+    isAmountProducts: function(): boolean {
+      const amountProductsArr = ['cupcake', 'meringue', 'cakepops', 'pp_candy'];
+      return !!(amountProductsArr.indexOf(this.order.type)+1);
+    }
   },
   methods: {
     calc() {
