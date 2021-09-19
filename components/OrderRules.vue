@@ -1,5 +1,5 @@
 <template>
-  <div class="order-rules">
+  <div class="order-rules content">
     <ul>
       <li v-for="(item, index) in orderRules" :key="index">{{ item }}</li>
     </ul>
