@@ -1,133 +1,103 @@
 <template>
-  <div class="order-content">
-    <div class="order-form columns">
-      <div class="column">
-        <!-- torts -->
-          <div class="columns">
-            <div class="column">
-              <b-field label="Дата">
-                <b-datetimepicker
-                  v-model="order.date"
-                  placeholder="Обрати"
-                  icon="calendar-today"
-                  :locale="getCalendarLocale"
-                  editable>
-                </b-datetimepicker>
-              </b-field>
-            </div>
-            <div class="column">
-              <b-field label="Вид">
-                <b-select placeholder="Я хочу замовити" v-model="order.type" expanded>
-                  <option v-for="(item, index) in formData" :key="index" :value="index">{{ item.name[getcurrentLang] }}</option>
-              </b-select>
-              </b-field>
-            </div>
-            <!-- <div class="column">
-              
-            </div> -->
-
-            
-          </div>
-          <!-- for torts only-->
-          <div v-if="order.type==='tort'">
-
-            <div class="columns">
-
-              <div class="column">
-                <b-field label="Вага">
-                  <b-select placeholder="Обрати" v-model="order.tort.weight" expanded>
-                      <option
-                          v-for="(item, index) in formData[order.type].data.weight" :key="index">
-                          {{ item }}
-                      </option>
-                  </b-select>
-                </b-field>
-              </div>
-
-              <div class="column">
-                <b-field label="Тип Торта">
-                  <b-select placeholder="Обрати" v-model="order.tort.kind" expanded>
-                      <option
-                          v-for="(item, index) in formData[order.type].data.type" :key="index" :value="index">
-                          {{ item.name[getcurrentLang] }}
-                      </option>
-                  </b-select>
-                </b-field>
-              </div>
-              <!-- bisquit start -->
-                <div class="column" v-if="order.tort.kind === 'bisquit'">
-                  <b-field label="Корж">
-                    <b-select placeholder="Обрати" v-model="order.tort.korj" expanded>
-                        <option
-                            v-for="(item, index) in formData.tort.data.type[order.tort.kind].korj" :key="index" :value="index">
-                            {{ item[getcurrentLang] }}
-                        </option>
-                    </b-select>
-                  </b-field>
-                </div>
-                <div class="column" v-if="order.tort.kind">
-                  <b-field label="Начинка">
-                    <b-select placeholder="Обрати" expanded>
-                        <option
-                            v-for="(item, index) in formData.tort.data.type[order.tort.kind].kind" :key="index">
-                            {{ item[getcurrentLang] }} - {{ item.price }} грн/кг
-                        </option>
-                    </b-select>
-                  </b-field>
-                </div>
-              
-              <!-- bisquit end -->
-
-            </div>
-
-            <h3>Оформлення</h3>
-
-            <div class="block">
-              <b-checkbox v-model="checkboxGroup" v-for="(item, index) in formData.tort.decoration"
-                  native-value="Silver" :key="index">
-                  {{ item[getcurrentLang] }} - {{ item.price }}грн
-              </b-checkbox>
-          </div>
-          </div>
-
-          <div  v-if="isAmountProducts">
+  <div class="order-wrap">
+    <div class="order-form">
+        <div class="box">
+          <!-- torts -->
             <div class="columns">
               <div class="column">
-                <b-field label="Кількість">
-                  <b-numberinput v-model="order[order.type].amount" :placeholder="formData[order.type].amountFrom" :min="formData[order.type].amountFrom"></b-numberinput>
+                <b-field label="Дата">
+                  <b-datetimepicker
+                    v-model="order.date"
+                    placeholder="Обрати"
+                    icon="calendar-today"
+                    :locale="getCalendarLocale"
+                    editable>
+                  </b-datetimepicker>
                 </b-field>
               </div>
-              <!-- column 2 -->
-            </div>
-          </div>
-
-          <!-- if pp -->
-          <!-- <div  v-if="order.type=='pp'">
-            <div class="columns">
               <div class="column">
                 <b-field label="Вид">
-                  <b-select placeholder="Обрати" v-model="order.pp.category">
-                      <option
-                          v-for="(item, index) in formData[order.type].category" :key="index" :value="index">
-                          {{ item[getcurrentLang] }}
-                      </option>
-                  </b-select>
+                  <b-select placeholder="Я хочу замовити" v-model="order.type" expanded>
+                    <option v-for="(item, index) in formData" :key="index" :value="index">{{ item.name[getcurrentLang] }}</option>
+                </b-select>
                 </b-field>
               </div>
             </div>
-          </div> -->
+            <!-- for torts only-->
+            <div v-if="order.type==='tort'">
+              <div class="columns">
+                <div class="column">
+                  <b-field label="Вага">
+                    <b-select placeholder="Обрати" v-model="order.tort.weight" expanded>
+                        <option
+                            v-for="(item, index) in formData[order.type].data.weight" :key="index">
+                            {{ item }}
+                        </option>
+                    </b-select>
+                  </b-field>
+                  <span class="input-notes">Мінімальна вага - 2кг</span>
+                </div>
+                <div class="column">
+                  <b-field label="Тип Торта">
+                    <b-select placeholder="Обрати" v-model="order.tort.kind" expanded>
+                        <option
+                            v-for="(item, index) in formData[order.type].data.type" :key="index" :value="index">
+                            {{ item.name[getcurrentLang] }}
+                        </option>
+                    </b-select>
+                  </b-field>
+                </div>
+                <!-- bisquit start -->
+                  <div class="column" v-if="order.tort.kind === 'bisquit'">
+                    <b-field label="Корж">
+                      <b-select placeholder="Обрати" v-model="order.tort.korj" expanded>
+                          <option
+                              v-for="(item, index) in formData.tort.data.type[order.tort.kind].korj" :key="index" :value="index">
+                              {{ item[getcurrentLang] }}
+                          </option>
+                      </b-select>
+                    </b-field>
+                  </div>
+                  <div class="column" v-if="order.tort.kind">
+                    <b-field label="Начинка">
+                      <b-select placeholder="Обрати" expanded>
+                          <option
+                              v-for="(item, index) in formData.tort.data.type[order.tort.kind].kind" :key="index">
+                              {{ item[getcurrentLang] }} - {{ item.price }} грн/кг
+                          </option>
+                      </b-select>
+                    </b-field>
+                  </div>
           
-            
-          <div class="form-group">
-            <button @click.prevent="calc">Calc</button>
-          </div>
+                <!-- bisquit end -->
+              </div>
+              <h3>Оформлення</h3>
+              <div class="block">
+                <b-checkbox v-model="checkboxGroup" v-for="(item, index) in formData.tort.decoration"
+                    native-value="Silver" :key="index">
+                    {{ item[getcurrentLang] }} - {{ item.price }}грн
+                </b-checkbox>
+            </div>
+            </div>
+            <div  v-if="isAmountProducts">
+              <div class="columns">
+                <div class="column">
+                  <b-field label="Кількість">
+                    <b-numberinput v-model="order[order.type].amount" :placeholder="formData[order.type].amountFrom" :min="formData[order.type].amountFrom"></b-numberinput>
+                  </b-field>
+                </div>
+                <!-- column 2 -->
+              </div>
+            </div>
+          
+            <div class="form-group">
+              <b-button  @click.prevent="calc" type="is-primary">Замовити</b-button>
+            </div>
+        </div>
       </div>
-      </div>
-      <div class="column">
         <aside class="order-aside">
           {{ order }}
         </aside>
-      </div>
         
     
   </div>
@@ -147,7 +117,7 @@ export default Vue.extend ({
               ru: 'Торт',
             },
             data: {
-              weight: ['2 кг', '3 кг', '4 кг', '>' ],
+              weight: ['2 кг', '3 кг', '4 кг', 'більше' ],
               type: {
                 bisquit: {
                   name: {
@@ -414,15 +384,6 @@ export default Vue.extend ({
 })
 </script>
 
-<style scoped>
-  .order-content {
-    display: flex;
-  }
-  .order-form {
-    flex-grow: 1;
-  }
-  .order-aside {
-    flex: 0 0 200px;
-    padding-left: 35px;
-  }
+<style scoped  lang="scss">
+  @import './../assets/css/components/order';
 </style>

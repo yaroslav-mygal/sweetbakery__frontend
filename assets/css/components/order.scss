@@ -1,0 +1,15 @@
+.order-wrap {
+  display: flex;
+}
+.order-form {
+  flex-grow: 1;
+}
+.order-aside {
+  flex: 0 0 300px;
+  padding-left: 35px;
+}
+.input-notes {
+  display: block;
+  font-size: 0.9rem;
+  padding: 3px 0 0;
+}
